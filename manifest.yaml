@@ -1,0 +1,108 @@
+version: "1.0.0"
+metadata:
+  framework: "Agentic SOC Governance (ASG)"
+  layer: "Layer 1 Deterministic Policy Manifest"
+  agent_role: "tier1_analyst"
+
+# Role-Based Access Control (RBAC) Hierarchy
+roles:
+  tier1_analyst:
+    description: "Frontline automated triage agent with read-only and ticketing capabilities"
+    allowed_tools:
+      - "lookup_ip_reputation"
+      - "get_siem_telemetry"
+      - "run_host_diagnostics"
+      - "create_service_ticket"
+    rate_limits:
+      default_calls_per_minute: 10
+
+  tier2_admin:
+    description: "Elevated security engineer / containment authority"
+    allowed_tools:
+      - "lookup_ip_reputation"
+      - "get_siem_telemetry"
+      - "run_host_diagnostics"
+      - "create_service_ticket"
+      - "block_firewall_ip"
+    rate_limits:
+      default_calls_per_minute: 60
+
+# Deterministic Tool Parameter Schemas & Pre-Execution Boundary Rules
+tools:
+  lookup_ip_reputation:
+    description: "Query threat intelligence database for known malicious IPs"
+    required_role: "tier1_analyst"
+    parameters:
+      ip:
+        type: "string"
+        required: true
+        # RFC 5737 and standard IPv4 format check
+        pattern: "^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"
+
+  get_siem_telemetry:
+    description: "Fetch synthetic authentication and host telemetry logs"
+    required_role: "tier1_analyst"
+    parameters:
+      host_id:
+        type: "string"
+        required: true
+        pattern: "^[a-zA-Z0-9_-]{3,32}$"
+      limit:
+        type: "integer"
+        required: false
+        minimum: 1
+        maximum: 100
+
+  run_host_diagnostics:
+    description: "Execute non-destructive host diagnostic commands"
+    required_role: "tier1_analyst"
+    parameters:
+      host_id:
+        type: "string"
+        required: true
+        pattern: "^[a-zA-Z0-9_-]{3,32}$"
+      command:
+        type: "string"
+        required: true
+        # Whitelisted read-only system inspection commands
+        allowed_values:
+          - "netstat -an"
+          - "ps aux"
+          - "uptime"
+          - "system_info"
+
+  create_service_ticket:
+    description: "Create an incident record in the SOC ticketing platform"
+    required_role: "tier1_analyst"
+    parameters:
+      title:
+        type: "string"
+        required: true
+        min_length: 5
+        # Enforces the empirical 35% benign operational friction boundary
+        max_length: 50
+      severity:
+        type: "string"
+        required: true
+        allowed_values:
+          - "LOW"
+          - "MEDIUM"
+          - "HIGH"
+          - "CRITICAL"
+      description:
+        type: "string"
+        required: false
+        max_length: 500
+
+  block_firewall_ip:
+    description: "High-privilege firewall rule insertion for network perimeter isolation"
+    required_role: "tier2_admin"
+    parameters:
+      ip:
+        type: "string"
+        required: true
+        pattern: "^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"
+      reason:
+        type: "string"
+        required: true
+        max_length: 100

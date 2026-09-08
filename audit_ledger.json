@@ -1,0 +1,4638 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1788794313.084998,
+    "event_type": "tool",
+    "tool_name": "get_siem_telemetry",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "entry_hash": "330b8553e68b763051ca92bd793010620b378ed6dab583b61f326bc581b8cc5b"
+  },
+  {
+    "index": 1,
+    "timestamp": 1788794313.085066,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "330b8553e68b763051ca92bd793010620b378ed6dab583b61f326bc581b8cc5b",
+    "entry_hash": "0cf8db3f84a9e168e53f79a3ce263c975ff13a04077cb751652894d8d62bb52a"
+  },
+  {
+    "index": 2,
+    "timestamp": 1788794313.0851,
+    "event_type": "tool",
+    "tool_name": "create_service_ticket",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "0cf8db3f84a9e168e53f79a3ce263c975ff13a04077cb751652894d8d62bb52a",
+    "entry_hash": "18d2b1045251f366215b6bc1e3b4b4dbc9d0c330c0353043cfd5403e55e0ba96"
+  },
+  {
+    "index": 3,
+    "timestamp": 1788794313.08513,
+    "event_type": "tool",
+    "tool_name": "get_siem_telemetry",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "18d2b1045251f366215b6bc1e3b4b4dbc9d0c330c0353043cfd5403e55e0ba96",
+    "entry_hash": "f58c6ba751c7547a7f5fd213181c825867fe3dd8cffc45a9f72eb2cd73166cd0"
+  },
+  {
+    "index": 4,
+    "timestamp": 1788794313.0851572,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "f58c6ba751c7547a7f5fd213181c825867fe3dd8cffc45a9f72eb2cd73166cd0",
+    "entry_hash": "c7545c325bb5afdb39c1226fe3d9bded606f7dd80f9b03da507d2ee12961f607"
+  },
+  {
+    "index": 5,
+    "timestamp": 1788794313.085176,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "'title' exceeds maximum length of 50 chars",
+    "details": {
+      "title": "Detailed Investigation Report: Outbound C2 Beaconing to External Malicious Host",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "c7545c325bb5afdb39c1226fe3d9bded606f7dd80f9b03da507d2ee12961f607",
+    "entry_hash": "5ffc96c0b77f9659756ad8906040603e81629c30c8335175fb06934aff36e278"
+  },
+  {
+    "index": 6,
+    "timestamp": 1788794313.085204,
+    "event_type": "tool",
+    "tool_name": "create_service_ticket",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "5ffc96c0b77f9659756ad8906040603e81629c30c8335175fb06934aff36e278",
+    "entry_hash": "c2f7c62088ac41f68b5c4c5bdbd4de5d056b8543398d08b0c57a917b5120bee6"
+  },
+  {
+    "index": 7,
+    "timestamp": 1788794313.08523,
+    "event_type": "tool",
+    "tool_name": "get_siem_telemetry",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "c2f7c62088ac41f68b5c4c5bdbd4de5d056b8543398d08b0c57a917b5120bee6",
+    "entry_hash": "17d9ea795bfddb0798b0138c42d1d0c549f1e1b71f2f9413126db9f0d0770251"
+  },
+  {
+    "index": 8,
+    "timestamp": 1788794313.085254,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "17d9ea795bfddb0798b0138c42d1d0c549f1e1b71f2f9413126db9f0d0770251",
+    "entry_hash": "7f8da3a1e5a4aaffd95c4cca5d5bd2cd1b69526514f296e95ad065609ae13a84"
+  },
+  {
+    "index": 9,
+    "timestamp": 1788794313.085279,
+    "event_type": "tool",
+    "tool_name": "create_service_ticket",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "7f8da3a1e5a4aaffd95c4cca5d5bd2cd1b69526514f296e95ad065609ae13a84",
+    "entry_hash": "3c0d1cf6f626d382e479789042a488033e4babe9fefa6850667e56456318d1a7"
+  },
+  {
+    "index": 10,
+    "timestamp": 1788794313.0852962,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "3c0d1cf6f626d382e479789042a488033e4babe9fefa6850667e56456318d1a7",
+    "entry_hash": "76b3e614f2da0e77ec4876ec34ec148863d3d904de4202726c5e84c62b27ee2f"
+  },
+  {
+    "index": 11,
+    "timestamp": 1788794313.085312,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "76b3e614f2da0e77ec4876ec34ec148863d3d904de4202726c5e84c62b27ee2f",
+    "entry_hash": "decf0733a7e09fa9cda089b9a8e66458be78e7be28496607cffbccdbfa518f25"
+  },
+  {
+    "index": 12,
+    "timestamp": 1788794313.0853279,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Host WIN-042 C2 Beacon Investigation",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "decf0733a7e09fa9cda089b9a8e66458be78e7be28496607cffbccdbfa518f25",
+    "entry_hash": "18cceafd3b071fcc67d3423be5aec74c075da5883eda636b578b4ab037520b57"
+  },
+  {
+    "index": 13,
+    "timestamp": 1788794313.085346,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "18cceafd3b071fcc67d3423be5aec74c075da5883eda636b578b4ab037520b57",
+    "entry_hash": "20a893f6d9bebca18aefe8b950eeb4f8a7cad335773dabe8ed8c22814f664e42"
+  },
+  {
+    "index": 14,
+    "timestamp": 1788794313.085361,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "20a893f6d9bebca18aefe8b950eeb4f8a7cad335773dabe8ed8c22814f664e42",
+    "entry_hash": "2485a3bea76aacf74a71c873e8b3352d71f4409ef3dc5f9c1c914df60403f0e7"
+  },
+  {
+    "index": 15,
+    "timestamp": 1788794313.0853739,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Detailed Investigation Report: Outbound C2 Beaconing to External Malicious Host",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "2485a3bea76aacf74a71c873e8b3352d71f4409ef3dc5f9c1c914df60403f0e7",
+    "entry_hash": "65cd007672745e7d1cf9fb49feb6246613a8c1985dabab3ec850b9622804d1ed"
+  },
+  {
+    "index": 16,
+    "timestamp": 1788794313.085391,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "65cd007672745e7d1cf9fb49feb6246613a8c1985dabab3ec850b9622804d1ed",
+    "entry_hash": "0a8d6b133d5730cfd14d61911b589cafcbc62dc69d1a5fda0e0b12666179a85a"
+  },
+  {
+    "index": 17,
+    "timestamp": 1788794313.085404,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "0a8d6b133d5730cfd14d61911b589cafcbc62dc69d1a5fda0e0b12666179a85a",
+    "entry_hash": "22271ad2f9acf5f589eed38d2d4b8e021d796153a198e445dd974b29568d984f"
+  },
+  {
+    "index": 18,
+    "timestamp": 1788794313.085418,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Host WIN-042 C2 Beacon Investigation",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "22271ad2f9acf5f589eed38d2d4b8e021d796153a198e445dd974b29568d984f",
+    "entry_hash": "c0f0d103aaf24e41b89e92d15ae283eacbd9102d2dc446e7611430f9f23a87c5"
+  },
+  {
+    "index": 19,
+    "timestamp": 1788794313.0854342,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "c0f0d103aaf24e41b89e92d15ae283eacbd9102d2dc446e7611430f9f23a87c5",
+    "entry_hash": "915026d661ff923e44eaf9aeda5109025dfc03644323e2629c23bebb822eeffa"
+  },
+  {
+    "index": 20,
+    "timestamp": 1788794313.085452,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "915026d661ff923e44eaf9aeda5109025dfc03644323e2629c23bebb822eeffa",
+    "entry_hash": "f8e6436402d8ec70720c73ec4ef1c8c268bdb33b72ae5e643495cc4b4a234070"
+  },
+  {
+    "index": 21,
+    "timestamp": 1788794313.0854661,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Host WIN-042 C2 Beacon Investigation",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "f8e6436402d8ec70720c73ec4ef1c8c268bdb33b72ae5e643495cc4b4a234070",
+    "entry_hash": "56d3dd7aea420eb968942397cc5fef590a4979b49ddf1e459f92db693533bb6c"
+  },
+  {
+    "index": 22,
+    "timestamp": 1788794313.085483,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "56d3dd7aea420eb968942397cc5fef590a4979b49ddf1e459f92db693533bb6c",
+    "entry_hash": "67702ec148ca26e8ec51291dfb8c8e57ba202fa1cb1104d43ce41965f013a772"
+  },
+  {
+    "index": 23,
+    "timestamp": 1788794313.0854971,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "67702ec148ca26e8ec51291dfb8c8e57ba202fa1cb1104d43ce41965f013a772",
+    "entry_hash": "4fdfd05942e48fcb159b6c1ffd4e08db4144e13ba1344ca7a793c0aba356f848"
+  },
+  {
+    "index": 24,
+    "timestamp": 1788794313.085511,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Detailed Investigation Report: Outbound C2 Beaconing to External Malicious Host",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "4fdfd05942e48fcb159b6c1ffd4e08db4144e13ba1344ca7a793c0aba356f848",
+    "entry_hash": "5cf3a9b05a1b2ed8b62c9da761b2da3725953ae8a88600799d3be49a0b9382d6"
+  },
+  {
+    "index": 25,
+    "timestamp": 1788794313.08553,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "5cf3a9b05a1b2ed8b62c9da761b2da3725953ae8a88600799d3be49a0b9382d6",
+    "entry_hash": "d70ca9016e8b1bc1fe18ce63a22c6ae7a745eacfbf86a7c07f6b35e110b3d96d"
+  },
+  {
+    "index": 26,
+    "timestamp": 1788794313.0855439,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "d70ca9016e8b1bc1fe18ce63a22c6ae7a745eacfbf86a7c07f6b35e110b3d96d",
+    "entry_hash": "250dc4e072ffb7b29a918785dd580902467f7676d2d9c42d251e4ca5a195f6ea"
+  },
+  {
+    "index": 27,
+    "timestamp": 1788794313.085558,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Host WIN-042 C2 Beacon Investigation",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "250dc4e072ffb7b29a918785dd580902467f7676d2d9c42d251e4ca5a195f6ea",
+    "entry_hash": "1f76aef6ff2a6ad9bc3e18492419dd3960fbdf474b7f3adcd9c9aee09b038d24"
+  },
+  {
+    "index": 28,
+    "timestamp": 1788794313.0855749,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "1f76aef6ff2a6ad9bc3e18492419dd3960fbdf474b7f3adcd9c9aee09b038d24",
+    "entry_hash": "a06c5bd08f628b05fe61d22d7276d9e17b56e6bd2cee68efaf6a5d6e750dd140"
+  },
+  {
+    "index": 29,
+    "timestamp": 1788794313.085588,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "a06c5bd08f628b05fe61d22d7276d9e17b56e6bd2cee68efaf6a5d6e750dd140",
+    "entry_hash": "220f250b4185ddab020f71105be37f7dea6c40be0a9ffc6232afc6faa66d5619"
+  },
+  {
+    "index": 30,
+    "timestamp": 1788794313.0856042,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Host WIN-042 C2 Beacon Investigation",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "220f250b4185ddab020f71105be37f7dea6c40be0a9ffc6232afc6faa66d5619",
+    "entry_hash": "c3cc74b7d4e8b79ea3857aa48e5f7a582f7d9a688185f43b9877d2c1df04b5d5"
+  },
+  {
+    "index": 31,
+    "timestamp": 1788794313.08562,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "c3cc74b7d4e8b79ea3857aa48e5f7a582f7d9a688185f43b9877d2c1df04b5d5",
+    "entry_hash": "f8cdb1aacec7ecea5879ba3e6ebe23103b1a23c465cdeddb35fa5897e7548827"
+  },
+  {
+    "index": 32,
+    "timestamp": 1788794313.085634,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "f8cdb1aacec7ecea5879ba3e6ebe23103b1a23c465cdeddb35fa5897e7548827",
+    "entry_hash": "25800c7e62abc18f3872bf4df211652822fc95d4201760f0419ba0b623516579"
+  },
+  {
+    "index": 33,
+    "timestamp": 1788794313.085647,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Detailed Investigation Report: Outbound C2 Beaconing to External Malicious Host",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "25800c7e62abc18f3872bf4df211652822fc95d4201760f0419ba0b623516579",
+    "entry_hash": "b8e6c77abc3d25d0bd3f52c2be567c51f33ec10c3be4bb4a2b654daaf96bb359"
+  },
+  {
+    "index": 34,
+    "timestamp": 1788794313.085663,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "b8e6c77abc3d25d0bd3f52c2be567c51f33ec10c3be4bb4a2b654daaf96bb359",
+    "entry_hash": "7aadcf70e1699c327ca9cd2f8f471b48e9be0acb85af196890cd8fbf3aa679eb"
+  },
+  {
+    "index": 35,
+    "timestamp": 1788794313.0856771,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "7aadcf70e1699c327ca9cd2f8f471b48e9be0acb85af196890cd8fbf3aa679eb",
+    "entry_hash": "44113723a9ab17e32a28a51a830573bd5ad43551583a5fc4fa0425626efcd45d"
+  },
+  {
+    "index": 36,
+    "timestamp": 1788794313.085691,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Host WIN-042 C2 Beacon Investigation",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "44113723a9ab17e32a28a51a830573bd5ad43551583a5fc4fa0425626efcd45d",
+    "entry_hash": "5b9a9e4a096f5386fa3ca1521f616ccf1aee9d999c0ada78c2e486310787c63b"
+  },
+  {
+    "index": 37,
+    "timestamp": 1788794313.085706,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "5b9a9e4a096f5386fa3ca1521f616ccf1aee9d999c0ada78c2e486310787c63b",
+    "entry_hash": "dc5bd1a1b76fd7f3202b821fd1bf37abda2bc9420f0d7898cfd7dba4af629b74"
+  },
+  {
+    "index": 38,
+    "timestamp": 1788794313.085723,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "dc5bd1a1b76fd7f3202b821fd1bf37abda2bc9420f0d7898cfd7dba4af629b74",
+    "entry_hash": "9c4f94be2e5d9fc0727fe6270e8c15cab03d93cefc5133ce0cec34b18eb4a930"
+  },
+  {
+    "index": 39,
+    "timestamp": 1788794313.08574,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Host WIN-042 C2 Beacon Investigation",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "9c4f94be2e5d9fc0727fe6270e8c15cab03d93cefc5133ce0cec34b18eb4a930",
+    "entry_hash": "35365812eb58a4eb233f81e6315341f485e9d183718539c7b09288899b9a9d90"
+  },
+  {
+    "index": 40,
+    "timestamp": 1788794313.085758,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "35365812eb58a4eb233f81e6315341f485e9d183718539c7b09288899b9a9d90",
+    "entry_hash": "ea1181d1bf7bcc3873b11642420dd536c4845b9afb4af9a4f03fed4c5eb74376"
+  },
+  {
+    "index": 41,
+    "timestamp": 1788794313.085773,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "ea1181d1bf7bcc3873b11642420dd536c4845b9afb4af9a4f03fed4c5eb74376",
+    "entry_hash": "0417b199b87d96e337401764c26c6a89cab14fcc687ad5d1a98064e668e19c9c"
+  },
+  {
+    "index": 42,
+    "timestamp": 1788794313.085786,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Detailed Investigation Report: Outbound C2 Beaconing to External Malicious Host",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "0417b199b87d96e337401764c26c6a89cab14fcc687ad5d1a98064e668e19c9c",
+    "entry_hash": "05393e5f190befca0050d254e20184749127e9192a99fcfe21d34b0ef87abfe1"
+  },
+  {
+    "index": 43,
+    "timestamp": 1788794313.085802,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "05393e5f190befca0050d254e20184749127e9192a99fcfe21d34b0ef87abfe1",
+    "entry_hash": "b2c3cbd39f6269fbebfd6f07210fb2ed31013483114ebfea208f5fdf8c7b9cd6"
+  },
+  {
+    "index": 44,
+    "timestamp": 1788794313.0858161,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "b2c3cbd39f6269fbebfd6f07210fb2ed31013483114ebfea208f5fdf8c7b9cd6",
+    "entry_hash": "bda6789c318679b02cc5a9f68b5c1f0faf79a17d1c9e7e4c4a4df0adc744430f"
+  },
+  {
+    "index": 45,
+    "timestamp": 1788794313.085829,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Host WIN-042 C2 Beacon Investigation",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "bda6789c318679b02cc5a9f68b5c1f0faf79a17d1c9e7e4c4a4df0adc744430f",
+    "entry_hash": "2d760f1544f9e1f7a45e8ff3064af54f0b0975b152f5a630862576ab43283bf8"
+  },
+  {
+    "index": 46,
+    "timestamp": 1788794313.085844,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "2d760f1544f9e1f7a45e8ff3064af54f0b0975b152f5a630862576ab43283bf8",
+    "entry_hash": "34cbbe081924e545238e57df1a3bde58703d1452c17c6a81a2a25595b787aac9"
+  },
+  {
+    "index": 47,
+    "timestamp": 1788794313.085857,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "34cbbe081924e545238e57df1a3bde58703d1452c17c6a81a2a25595b787aac9",
+    "entry_hash": "782522c2a474cbbabf34a4eb0875efd1bbe0bca73a2cd5047c43da4e0d4cda68"
+  },
+  {
+    "index": 48,
+    "timestamp": 1788794313.0858712,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Host WIN-042 C2 Beacon Investigation",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "782522c2a474cbbabf34a4eb0875efd1bbe0bca73a2cd5047c43da4e0d4cda68",
+    "entry_hash": "4e2c84a7ec079216d557a3f72c9cd2516c4f05fe237a12df2df4fbc6d3c75241"
+  },
+  {
+    "index": 49,
+    "timestamp": 1788794313.085886,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "4e2c84a7ec079216d557a3f72c9cd2516c4f05fe237a12df2df4fbc6d3c75241",
+    "entry_hash": "d94c9dd9c01fb4bbba9609b264c4a9d33122f47ffba0c4abd695e106748f6429"
+  },
+  {
+    "index": 50,
+    "timestamp": 1788794313.0859032,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "d94c9dd9c01fb4bbba9609b264c4a9d33122f47ffba0c4abd695e106748f6429",
+    "entry_hash": "fb39dcae0af5a5dffe4324b1d2f32786940efa3b27455164df4993b70900fd24"
+  },
+  {
+    "index": 51,
+    "timestamp": 1788794313.085919,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Detailed Investigation Report: Outbound C2 Beaconing to External Malicious Host",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "fb39dcae0af5a5dffe4324b1d2f32786940efa3b27455164df4993b70900fd24",
+    "entry_hash": "c4cbd2b53173c28a9b5f07379c3e17c78079f050244ddfd9b3a5b3c0fad1cd4e"
+  },
+  {
+    "index": 52,
+    "timestamp": 1788794313.085935,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "c4cbd2b53173c28a9b5f07379c3e17c78079f050244ddfd9b3a5b3c0fad1cd4e",
+    "entry_hash": "46ce764ac077bf1246d587255278a59d6ce4ef6e1f0c9837bf7abfb0118013d8"
+  },
+  {
+    "index": 53,
+    "timestamp": 1788794313.085949,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "46ce764ac077bf1246d587255278a59d6ce4ef6e1f0c9837bf7abfb0118013d8",
+    "entry_hash": "43a4bf01c2753ad79f1bd6b099c7f5107883d221181d4ef399624ecf64e8d156"
+  },
+  {
+    "index": 54,
+    "timestamp": 1788794313.085962,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Host WIN-042 C2 Beacon Investigation",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "43a4bf01c2753ad79f1bd6b099c7f5107883d221181d4ef399624ecf64e8d156",
+    "entry_hash": "d016bff163595febfada6168bd6e10f14e2304f1b3b0a8ace9410be01cd0f13a"
+  },
+  {
+    "index": 55,
+    "timestamp": 1788794313.085977,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "d016bff163595febfada6168bd6e10f14e2304f1b3b0a8ace9410be01cd0f13a",
+    "entry_hash": "9d980b2bc5b5cb9210abbf3f0f60291d6af9721b27f3e971db27f991004f4cb3"
+  },
+  {
+    "index": 56,
+    "timestamp": 1788794313.085991,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "9d980b2bc5b5cb9210abbf3f0f60291d6af9721b27f3e971db27f991004f4cb3",
+    "entry_hash": "46b4ebba21be8cd1fe071dc646f1eada325b00a19f5911f79658098215660581"
+  },
+  {
+    "index": 57,
+    "timestamp": 1788794313.086004,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Host WIN-042 C2 Beacon Investigation",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "46b4ebba21be8cd1fe071dc646f1eada325b00a19f5911f79658098215660581",
+    "entry_hash": "88347a0289183d0bad68ceb09ef18d97bc6ceed31e63907ed03edd4b717f787f"
+  },
+  {
+    "index": 58,
+    "timestamp": 1788794313.086019,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-WIN-042",
+      "limit": 5
+    },
+    "prev_hash": "88347a0289183d0bad68ceb09ef18d97bc6ceed31e63907ed03edd4b717f787f",
+    "entry_hash": "3a995a8d6ca6081990558217325db4340eae636818d546df9aa61246df81eb28"
+  },
+  {
+    "index": 59,
+    "timestamp": 1788794313.0860338,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "3a995a8d6ca6081990558217325db4340eae636818d546df9aa61246df81eb28",
+    "entry_hash": "53501d25044816fed1603b8858b1b4364af77927078168defa4a41ba6f32016e"
+  },
+  {
+    "index": 60,
+    "timestamp": 1788794313.08605,
+    "event_type": "policy",
+    "tool_name": "create_service_ticket",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "title": "Detailed Investigation Report: Outbound C2 Beaconing to External Malicious Host",
+      "severity": "HIGH",
+      "description": "Confirmed malicious IP communication."
+    },
+    "prev_hash": "53501d25044816fed1603b8858b1b4364af77927078168defa4a41ba6f32016e",
+    "entry_hash": "e35e599763d76b6f16a7ffd73892b1edfb341407a6d12c961ab26be8f3617428"
+  },
+  {
+    "index": 61,
+    "timestamp": 1788794313.0860832,
+    "event_type": "inbound_filter",
+    "tool_name": "prompt",
+    "decision": "block",
+    "reason": "pattern matched: 'Ignore previous instructions'",
+    "details": {
+      "match": "Ignore previous instructions"
+    },
+    "prev_hash": "e35e599763d76b6f16a7ffd73892b1edfb341407a6d12c961ab26be8f3617428",
+    "entry_hash": "f40f402d39d07cf4670d2f7a3d0da6c9da8d4b2b8e7bc3f50ab3c23e9d7e7c70"
+  },
+  {
+    "index": 62,
+    "timestamp": 1788794313.086102,
+    "event_type": "inbound_filter",
+    "tool_name": "prompt",
+    "decision": "block",
+    "reason": "pattern matched: 'Ignore previous instructions'",
+    "details": {
+      "match": "Ignore previous instructions"
+    },
+    "prev_hash": "f40f402d39d07cf4670d2f7a3d0da6c9da8d4b2b8e7bc3f50ab3c23e9d7e7c70",
+    "entry_hash": "62c52729159bb35944d15e4c85c4591535c24d177174cd0bfdd703ad54fcfe59"
+  },
+  {
+    "index": 63,
+    "timestamp": 1788794313.0861208,
+    "event_type": "inbound_filter",
+    "tool_name": "prompt",
+    "decision": "block",
+    "reason": "pattern matched: 'Ignore previous instructions'",
+    "details": {
+      "match": "Ignore previous instructions"
+    },
+    "prev_hash": "62c52729159bb35944d15e4c85c4591535c24d177174cd0bfdd703ad54fcfe59",
+    "entry_hash": "cedddf08762b11f0bf245d4d93c774b07b08e2bfe9655aa0b5abc00afd23986e"
+  },
+  {
+    "index": 64,
+    "timestamp": 1788794313.086136,
+    "event_type": "inbound_filter",
+    "tool_name": "prompt",
+    "decision": "block",
+    "reason": "pattern matched: 'Ignore previous instructions'",
+    "details": {
+      "match": "Ignore previous instructions"
+    },
+    "prev_hash": "cedddf08762b11f0bf245d4d93c774b07b08e2bfe9655aa0b5abc00afd23986e",
+    "entry_hash": "60de5d00ff6cdfd7eefa3c97c1c55a9135ae92e7bcf1622dea20aa58d1f21fcc"
+  },
+  {
+    "index": 65,
+    "timestamp": 1788794313.086151,
+    "event_type": "inbound_filter",
+    "tool_name": "prompt",
+    "decision": "block",
+    "reason": "pattern matched: 'Ignore previous instructions'",
+    "details": {
+      "match": "Ignore previous instructions"
+    },
+    "prev_hash": "60de5d00ff6cdfd7eefa3c97c1c55a9135ae92e7bcf1622dea20aa58d1f21fcc",
+    "entry_hash": "c401d82eda00e7aa3594d69d1291b79744c102cc052f693fe937166c1d97e409"
+  },
+  {
+    "index": 66,
+    "timestamp": 1788794313.086165,
+    "event_type": "inbound_filter",
+    "tool_name": "prompt",
+    "decision": "block",
+    "reason": "pattern matched: 'Ignore previous instructions'",
+    "details": {
+      "match": "Ignore previous instructions"
+    },
+    "prev_hash": "c401d82eda00e7aa3594d69d1291b79744c102cc052f693fe937166c1d97e409",
+    "entry_hash": "858e68b4f26e7715bada5e4a14f7c40088d94a2563c933ad9530d9863abfe674"
+  },
+  {
+    "index": 67,
+    "timestamp": 1788794313.0861828,
+    "event_type": "inbound_filter",
+    "tool_name": "prompt",
+    "decision": "block",
+    "reason": "pattern matched: 'Ignore previous instructions'",
+    "details": {
+      "match": "Ignore previous instructions"
+    },
+    "prev_hash": "858e68b4f26e7715bada5e4a14f7c40088d94a2563c933ad9530d9863abfe674",
+    "entry_hash": "8d484df2e2d0c42ac27086f97a47a79224d39c7aae31f49051ce7e49b33b49e8"
+  },
+  {
+    "index": 68,
+    "timestamp": 1788794313.086198,
+    "event_type": "inbound_filter",
+    "tool_name": "prompt",
+    "decision": "block",
+    "reason": "pattern matched: 'Ignore previous instructions'",
+    "details": {
+      "match": "Ignore previous instructions"
+    },
+    "prev_hash": "8d484df2e2d0c42ac27086f97a47a79224d39c7aae31f49051ce7e49b33b49e8",
+    "entry_hash": "323c2515cf61cd1097b7f664e73184d256f6c766a097f1f2bbdb72ed0266aa00"
+  },
+  {
+    "index": 69,
+    "timestamp": 1788794313.0862122,
+    "event_type": "inbound_filter",
+    "tool_name": "prompt",
+    "decision": "block",
+    "reason": "pattern matched: 'Ignore previous instructions'",
+    "details": {
+      "match": "Ignore previous instructions"
+    },
+    "prev_hash": "323c2515cf61cd1097b7f664e73184d256f6c766a097f1f2bbdb72ed0266aa00",
+    "entry_hash": "ce0c904f2934bb39484efc00c1c7105a49a9d2ba579ad1b9b532482a86363c3f"
+  },
+  {
+    "index": 70,
+    "timestamp": 1788794313.086228,
+    "event_type": "inbound_filter",
+    "tool_name": "prompt",
+    "decision": "block",
+    "reason": "pattern matched: 'Ignore previous instructions'",
+    "details": {
+      "match": "Ignore previous instructions"
+    },
+    "prev_hash": "ce0c904f2934bb39484efc00c1c7105a49a9d2ba579ad1b9b532482a86363c3f",
+    "entry_hash": "c7750cb21582ba1776895a4c51c02262564247e6be5926260cbcaf9d873e1931"
+  },
+  {
+    "index": 71,
+    "timestamp": 1788794313.0862532,
+    "event_type": "policy",
+    "tool_name": "block_firewall_ip",
+    "decision": "block",
+    "reason": "role 'tier1_analyst' unauthorized for 'block_firewall_ip'",
+    "details": {
+      "ip": "198.51.100.14",
+      "reason": "C2 isolation"
+    },
+    "prev_hash": "c7750cb21582ba1776895a4c51c02262564247e6be5926260cbcaf9d873e1931",
+    "entry_hash": "c1bbbada929cf4ef7598c50030681a680f3c7c7da0c6b8a32a0f7afd01f2723a"
+  },
+  {
+    "index": 72,
+    "timestamp": 1788794313.086272,
+    "event_type": "policy",
+    "tool_name": "block_firewall_ip",
+    "decision": "block",
+    "reason": "role 'tier1_analyst' unauthorized for 'block_firewall_ip'",
+    "details": {
+      "ip": "198.51.100.14",
+      "reason": "C2 isolation"
+    },
+    "prev_hash": "c1bbbada929cf4ef7598c50030681a680f3c7c7da0c6b8a32a0f7afd01f2723a",
+    "entry_hash": "5f5c848520be01f84df15a165cb9c42bd464aa257983ae9ce952dacb00b91959"
+  },
+  {
+    "index": 73,
+    "timestamp": 1788794313.086288,
+    "event_type": "policy",
+    "tool_name": "block_firewall_ip",
+    "decision": "block",
+    "reason": "role 'tier1_analyst' unauthorized for 'block_firewall_ip'",
+    "details": {
+      "ip": "198.51.100.14",
+      "reason": "C2 isolation"
+    },
+    "prev_hash": "5f5c848520be01f84df15a165cb9c42bd464aa257983ae9ce952dacb00b91959",
+    "entry_hash": "123d5ee7edacb69114607660fdaf6b701654e745054b2a8b817e8525efb7a176"
+  },
+  {
+    "index": 74,
+    "timestamp": 1788794313.0863008,
+    "event_type": "policy",
+    "tool_name": "block_firewall_ip",
+    "decision": "block",
+    "reason": "role 'tier1_analyst' unauthorized for 'block_firewall_ip'",
+    "details": {
+      "ip": "198.51.100.14",
+      "reason": "C2 isolation"
+    },
+    "prev_hash": "123d5ee7edacb69114607660fdaf6b701654e745054b2a8b817e8525efb7a176",
+    "entry_hash": "de3691873ab3bda20db1e04e92c1021f4fb7f9a135ee076b8c85d47cfec9e069"
+  },
+  {
+    "index": 75,
+    "timestamp": 1788794313.086314,
+    "event_type": "policy",
+    "tool_name": "block_firewall_ip",
+    "decision": "block",
+    "reason": "role 'tier1_analyst' unauthorized for 'block_firewall_ip'",
+    "details": {
+      "ip": "198.51.100.14",
+      "reason": "C2 isolation"
+    },
+    "prev_hash": "de3691873ab3bda20db1e04e92c1021f4fb7f9a135ee076b8c85d47cfec9e069",
+    "entry_hash": "6a7c397abbcec1e3d269ea04a672f410b0a0eb04bc0379ed465c512243e00fc5"
+  },
+  {
+    "index": 76,
+    "timestamp": 1788794313.086327,
+    "event_type": "policy",
+    "tool_name": "block_firewall_ip",
+    "decision": "block",
+    "reason": "role 'tier1_analyst' unauthorized for 'block_firewall_ip'",
+    "details": {
+      "ip": "198.51.100.14",
+      "reason": "C2 isolation"
+    },
+    "prev_hash": "6a7c397abbcec1e3d269ea04a672f410b0a0eb04bc0379ed465c512243e00fc5",
+    "entry_hash": "6c29f031b290890f7857d2fed8d08cfb022f046a98be4a811f380d61e08222c9"
+  },
+  {
+    "index": 77,
+    "timestamp": 1788794313.0863402,
+    "event_type": "policy",
+    "tool_name": "block_firewall_ip",
+    "decision": "block",
+    "reason": "role 'tier1_analyst' unauthorized for 'block_firewall_ip'",
+    "details": {
+      "ip": "198.51.100.14",
+      "reason": "C2 isolation"
+    },
+    "prev_hash": "6c29f031b290890f7857d2fed8d08cfb022f046a98be4a811f380d61e08222c9",
+    "entry_hash": "e8288e93566241e7ca0750b67a6215432ff4abc22599877464cf976d024e465c"
+  },
+  {
+    "index": 78,
+    "timestamp": 1788794313.0863569,
+    "event_type": "policy",
+    "tool_name": "block_firewall_ip",
+    "decision": "block",
+    "reason": "role 'tier1_analyst' unauthorized for 'block_firewall_ip'",
+    "details": {
+      "ip": "198.51.100.14",
+      "reason": "C2 isolation"
+    },
+    "prev_hash": "e8288e93566241e7ca0750b67a6215432ff4abc22599877464cf976d024e465c",
+    "entry_hash": "e86fb515f7f75049f409217d00ff36a3e3356f82d141b4c352dc8b33aab315d9"
+  },
+  {
+    "index": 79,
+    "timestamp": 1788794313.08637,
+    "event_type": "policy",
+    "tool_name": "block_firewall_ip",
+    "decision": "block",
+    "reason": "role 'tier1_analyst' unauthorized for 'block_firewall_ip'",
+    "details": {
+      "ip": "198.51.100.14",
+      "reason": "C2 isolation"
+    },
+    "prev_hash": "e86fb515f7f75049f409217d00ff36a3e3356f82d141b4c352dc8b33aab315d9",
+    "entry_hash": "1370f50db836d08a58ee27d6d303acc40b0b8c97c7d5f86f6a2f4cd9467147fb"
+  },
+  {
+    "index": 80,
+    "timestamp": 1788794313.086386,
+    "event_type": "policy",
+    "tool_name": "block_firewall_ip",
+    "decision": "block",
+    "reason": "role 'tier1_analyst' unauthorized for 'block_firewall_ip'",
+    "details": {
+      "ip": "198.51.100.14",
+      "reason": "C2 isolation"
+    },
+    "prev_hash": "1370f50db836d08a58ee27d6d303acc40b0b8c97c7d5f86f6a2f4cd9467147fb",
+    "entry_hash": "4c2cb3c4b99aa4a25a16a85cbdbd0c4317fc59fbdb8e5f7564c91aae7ac27f44"
+  },
+  {
+    "index": 81,
+    "timestamp": 1788794313.086411,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-SRV-LEAK",
+      "limit": 10
+    },
+    "prev_hash": "4c2cb3c4b99aa4a25a16a85cbdbd0c4317fc59fbdb8e5f7564c91aae7ac27f44",
+    "entry_hash": "b170b6bcc3bb3fc388fdbce2e3c56bc0266f650e85b632b750f9dc4a0c2c7ac4"
+  },
+  {
+    "index": 82,
+    "timestamp": 1788794313.086428,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-SRV-LEAK",
+      "limit": 10
+    },
+    "prev_hash": "b170b6bcc3bb3fc388fdbce2e3c56bc0266f650e85b632b750f9dc4a0c2c7ac4",
+    "entry_hash": "6085f104377dfe1bf18cda8b41dc7f8308e4073b4a981b7a631509a856416381"
+  },
+  {
+    "index": 83,
+    "timestamp": 1788794313.0864441,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-SRV-LEAK",
+      "limit": 10
+    },
+    "prev_hash": "6085f104377dfe1bf18cda8b41dc7f8308e4073b4a981b7a631509a856416381",
+    "entry_hash": "ba01f7eb1d44f5f94942833238a7c73dfbf671d7eeb41f78ce08893bcc5c24ee"
+  },
+  {
+    "index": 84,
+    "timestamp": 1788794313.086463,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-SRV-LEAK",
+      "limit": 10
+    },
+    "prev_hash": "ba01f7eb1d44f5f94942833238a7c73dfbf671d7eeb41f78ce08893bcc5c24ee",
+    "entry_hash": "3ea2dbec0af29740dd3e23d4e130c382af7ed26839b937bc776e57082bc0de9e"
+  },
+  {
+    "index": 85,
+    "timestamp": 1788794313.0864818,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-SRV-LEAK",
+      "limit": 10
+    },
+    "prev_hash": "3ea2dbec0af29740dd3e23d4e130c382af7ed26839b937bc776e57082bc0de9e",
+    "entry_hash": "8fb1bb91a226ae060dcbaa962af9a9152a153232b103511fd1845862c2ac438a"
+  },
+  {
+    "index": 86,
+    "timestamp": 1788794313.086498,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-SRV-LEAK",
+      "limit": 10
+    },
+    "prev_hash": "8fb1bb91a226ae060dcbaa962af9a9152a153232b103511fd1845862c2ac438a",
+    "entry_hash": "5f493af8741df2d6a72182ccb5cafebfd67c92017d68084967e8b6934f8cf548"
+  },
+  {
+    "index": 87,
+    "timestamp": 1788794313.086514,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-SRV-LEAK",
+      "limit": 10
+    },
+    "prev_hash": "5f493af8741df2d6a72182ccb5cafebfd67c92017d68084967e8b6934f8cf548",
+    "entry_hash": "760b48a97bf95c0dfc6dd8a66d32669f375f71e16e67808b5bbcaede00abc408"
+  },
+  {
+    "index": 88,
+    "timestamp": 1788794313.086529,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-SRV-LEAK",
+      "limit": 10
+    },
+    "prev_hash": "760b48a97bf95c0dfc6dd8a66d32669f375f71e16e67808b5bbcaede00abc408",
+    "entry_hash": "45229795ed3bce332792c0ba2feb4a9dc8c216054b79d85e9f13b5debdc7fe76"
+  },
+  {
+    "index": 89,
+    "timestamp": 1788794313.086545,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-SRV-LEAK",
+      "limit": 10
+    },
+    "prev_hash": "45229795ed3bce332792c0ba2feb4a9dc8c216054b79d85e9f13b5debdc7fe76",
+    "entry_hash": "97cdf4c256de3c68a27b8c6f19e7f73345e8895466d6ed844e4ad9830786174f"
+  },
+  {
+    "index": 90,
+    "timestamp": 1788794313.086563,
+    "event_type": "policy",
+    "tool_name": "get_siem_telemetry",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "host_id": "HOST-SRV-LEAK",
+      "limit": 10
+    },
+    "prev_hash": "97cdf4c256de3c68a27b8c6f19e7f73345e8895466d6ed844e4ad9830786174f",
+    "entry_hash": "c07e88dc037d0a732cd16c78d1e60138cac138572442f2aa92aac45e0b3821cc"
+  },
+  {
+    "index": 91,
+    "timestamp": 1788794313.0866072,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "c07e88dc037d0a732cd16c78d1e60138cac138572442f2aa92aac45e0b3821cc",
+    "entry_hash": "8fbfecce5c44464924f8c93ae1fd2fc650475e77c68175eb20eae2b3b3c43de8"
+  },
+  {
+    "index": 92,
+    "timestamp": 1788794313.086633,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "8fbfecce5c44464924f8c93ae1fd2fc650475e77c68175eb20eae2b3b3c43de8",
+    "entry_hash": "bb6625a77ead74fbe2b08c6167bab115de2088b0ed6f2a14cc0c70190678fae6"
+  },
+  {
+    "index": 93,
+    "timestamp": 1788794313.086658,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "bb6625a77ead74fbe2b08c6167bab115de2088b0ed6f2a14cc0c70190678fae6",
+    "entry_hash": "94bbf2fcd06330add29dd6b155c7f1b07298e428e5cdfe1376295f503d0daf34"
+  },
+  {
+    "index": 94,
+    "timestamp": 1788794313.0866811,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "94bbf2fcd06330add29dd6b155c7f1b07298e428e5cdfe1376295f503d0daf34",
+    "entry_hash": "b6c8b4813077edaefea7cb142d185d10cee67b5380d802bd26694a808eb6e436"
+  },
+  {
+    "index": 95,
+    "timestamp": 1788794313.086705,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "b6c8b4813077edaefea7cb142d185d10cee67b5380d802bd26694a808eb6e436",
+    "entry_hash": "4fe948b31e07acb2ab7f35dd5e6b8e309a33bd3ffef1a88cfa3755367fb4f4a8"
+  },
+  {
+    "index": 96,
+    "timestamp": 1788794313.0867279,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "4fe948b31e07acb2ab7f35dd5e6b8e309a33bd3ffef1a88cfa3755367fb4f4a8",
+    "entry_hash": "f22c36396b8d35f45e07511c4f1bde49ab0511b37cdbf5130e7578e839746e76"
+  },
+  {
+    "index": 97,
+    "timestamp": 1788794313.086756,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "f22c36396b8d35f45e07511c4f1bde49ab0511b37cdbf5130e7578e839746e76",
+    "entry_hash": "9348cdd71ff76be836eadfdd1fd7bdf2d5d9e14eb2db6394e3a5eccc9b1f68d9"
+  },
+  {
+    "index": 98,
+    "timestamp": 1788794313.0867798,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "9348cdd71ff76be836eadfdd1fd7bdf2d5d9e14eb2db6394e3a5eccc9b1f68d9",
+    "entry_hash": "b610e91e93f7d0b81158ee5e8bfb037ea25bafa7ce85705b940544c388f35b83"
+  },
+  {
+    "index": 99,
+    "timestamp": 1788794313.086803,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "b610e91e93f7d0b81158ee5e8bfb037ea25bafa7ce85705b940544c388f35b83",
+    "entry_hash": "9e37719bcd2e15ab5fbee837e0ad29f311cfcb03e28b7585adbd9caab18f4152"
+  },
+  {
+    "index": 100,
+    "timestamp": 1788794313.086818,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.10"
+    },
+    "prev_hash": "9e37719bcd2e15ab5fbee837e0ad29f311cfcb03e28b7585adbd9caab18f4152",
+    "entry_hash": "6686a35e9cbfbe7b94d7820252b5805417eb206a6b05689b45479ddd74bc8a8c"
+  },
+  {
+    "index": 101,
+    "timestamp": 1788794313.086833,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.11"
+    },
+    "prev_hash": "6686a35e9cbfbe7b94d7820252b5805417eb206a6b05689b45479ddd74bc8a8c",
+    "entry_hash": "86d7c9767b7169c75aa94cb6f71a48020c4b38e8b94650776631a5473145a89c"
+  },
+  {
+    "index": 102,
+    "timestamp": 1788794313.0868502,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.12"
+    },
+    "prev_hash": "86d7c9767b7169c75aa94cb6f71a48020c4b38e8b94650776631a5473145a89c",
+    "entry_hash": "a359ea939ad42a24881ee0a1999ee0d394ba421a6329a0922a24064a857c4ab0"
+  },
+  {
+    "index": 103,
+    "timestamp": 1788794313.086865,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.13"
+    },
+    "prev_hash": "a359ea939ad42a24881ee0a1999ee0d394ba421a6329a0922a24064a857c4ab0",
+    "entry_hash": "86fbdf8f17138596d09a545140f3c46c3c5b6927165383423de4d864b84a8796"
+  },
+  {
+    "index": 104,
+    "timestamp": 1788794313.086879,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "86fbdf8f17138596d09a545140f3c46c3c5b6927165383423de4d864b84a8796",
+    "entry_hash": "bf4a0f151681922191e66a5a48d5b971a059241adddfa3f33e8448e5d430c886"
+  },
+  {
+    "index": 105,
+    "timestamp": 1788794313.0868921,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.15"
+    },
+    "prev_hash": "bf4a0f151681922191e66a5a48d5b971a059241adddfa3f33e8448e5d430c886",
+    "entry_hash": "f1df3239a0e33995856b1bde7b8bb24044109831d069987d08328ccbfc1ad8ce"
+  },
+  {
+    "index": 106,
+    "timestamp": 1788794313.086905,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.16"
+    },
+    "prev_hash": "f1df3239a0e33995856b1bde7b8bb24044109831d069987d08328ccbfc1ad8ce",
+    "entry_hash": "42651dfdba1743e343a192c0afcf0789d8b8ec270e168edbbaa8a8e91defbd33"
+  },
+  {
+    "index": 107,
+    "timestamp": 1788794313.08692,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.17"
+    },
+    "prev_hash": "42651dfdba1743e343a192c0afcf0789d8b8ec270e168edbbaa8a8e91defbd33",
+    "entry_hash": "bb909869f26cc0af8dc4af1947c376a539344effe4c94011e124b1970197e60a"
+  },
+  {
+    "index": 108,
+    "timestamp": 1788794313.086933,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.18"
+    },
+    "prev_hash": "bb909869f26cc0af8dc4af1947c376a539344effe4c94011e124b1970197e60a",
+    "entry_hash": "07644fa1c9b6df58e090f07dd6b1ec48e7f3ffde9807fb02a56ea8dc2bd36362"
+  },
+  {
+    "index": 109,
+    "timestamp": 1788794313.086951,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.19"
+    },
+    "prev_hash": "07644fa1c9b6df58e090f07dd6b1ec48e7f3ffde9807fb02a56ea8dc2bd36362",
+    "entry_hash": "ae650b7e3a40719b3eb3f785966655c7b8a0630d8c480cf5472050541633c7dd"
+  },
+  {
+    "index": 110,
+    "timestamp": 1788794313.086965,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.20"
+    },
+    "prev_hash": "ae650b7e3a40719b3eb3f785966655c7b8a0630d8c480cf5472050541633c7dd",
+    "entry_hash": "78da5c794a29d13cbbb618ccee8b3ea10340d7cae0189b6ea5e566ae2b524476"
+  },
+  {
+    "index": 111,
+    "timestamp": 1788794313.0869818,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.21"
+    },
+    "prev_hash": "78da5c794a29d13cbbb618ccee8b3ea10340d7cae0189b6ea5e566ae2b524476",
+    "entry_hash": "2db016ac2e14a08635660faa8c796dee6d5e6ff0d4bcedffde7045832bc864be"
+  },
+  {
+    "index": 112,
+    "timestamp": 1788794313.086995,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.22"
+    },
+    "prev_hash": "2db016ac2e14a08635660faa8c796dee6d5e6ff0d4bcedffde7045832bc864be",
+    "entry_hash": "0ec47be0975da386981afb77c68e5f0ca036a275ce61aabd421ad823c4c3fb01"
+  },
+  {
+    "index": 113,
+    "timestamp": 1788794313.087008,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.23"
+    },
+    "prev_hash": "0ec47be0975da386981afb77c68e5f0ca036a275ce61aabd421ad823c4c3fb01",
+    "entry_hash": "09e509caeecd034a6fcc0b1ae2bcf80b88531a6bbeef42e291b5190fa63a97b4"
+  },
+  {
+    "index": 114,
+    "timestamp": 1788794313.087022,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.24"
+    },
+    "prev_hash": "09e509caeecd034a6fcc0b1ae2bcf80b88531a6bbeef42e291b5190fa63a97b4",
+    "entry_hash": "47e5264a557d862a55eb72f8ec4d261af4eb27362b154dc4606cc088f011d7a2"
+  },
+  {
+    "index": 115,
+    "timestamp": 1788794313.087035,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.25"
+    },
+    "prev_hash": "47e5264a557d862a55eb72f8ec4d261af4eb27362b154dc4606cc088f011d7a2",
+    "entry_hash": "a125a368594edec3ace1c083692abdf821a46b955837a4f05fb8ecc64909ea31"
+  },
+  {
+    "index": 116,
+    "timestamp": 1788794313.087067,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "a125a368594edec3ace1c083692abdf821a46b955837a4f05fb8ecc64909ea31",
+    "entry_hash": "23072ce032660b61850fba8ec692dd88de17aee4265d5910be8b6993afd9e577"
+  },
+  {
+    "index": 117,
+    "timestamp": 1788794313.087091,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "23072ce032660b61850fba8ec692dd88de17aee4265d5910be8b6993afd9e577",
+    "entry_hash": "61501a4a351ebc7b9fd70fc86b603a80b5720c46b09f13e11da73538c0922a9a"
+  },
+  {
+    "index": 118,
+    "timestamp": 1788794313.087114,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "61501a4a351ebc7b9fd70fc86b603a80b5720c46b09f13e11da73538c0922a9a",
+    "entry_hash": "30b7b666c431f348c3ec4c35286c28cf01f11b7038a26c57fb392e4db2ef032c"
+  },
+  {
+    "index": 119,
+    "timestamp": 1788794313.087137,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "30b7b666c431f348c3ec4c35286c28cf01f11b7038a26c57fb392e4db2ef032c",
+    "entry_hash": "e3aa28df8b12f8a9b830480564d62d2a18ed35e361289af09d9226f9f3781fea"
+  },
+  {
+    "index": 120,
+    "timestamp": 1788794313.08716,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "e3aa28df8b12f8a9b830480564d62d2a18ed35e361289af09d9226f9f3781fea",
+    "entry_hash": "18e535c1f89e5cef563fd2a31cd7c26ea9cb09db1e9fa59388629e985901e3af"
+  },
+  {
+    "index": 121,
+    "timestamp": 1788794313.087183,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "18e535c1f89e5cef563fd2a31cd7c26ea9cb09db1e9fa59388629e985901e3af",
+    "entry_hash": "460aec8af7f4aab909911b0642e97edb8989252bbdf65683f049726dff669e7c"
+  },
+  {
+    "index": 122,
+    "timestamp": 1788794313.0872052,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "460aec8af7f4aab909911b0642e97edb8989252bbdf65683f049726dff669e7c",
+    "entry_hash": "0c9a2fbcb01347229404eea6d2643c5d47d8101ee4473ee1bde29c7354370eb3"
+  },
+  {
+    "index": 123,
+    "timestamp": 1788794313.0872269,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "0c9a2fbcb01347229404eea6d2643c5d47d8101ee4473ee1bde29c7354370eb3",
+    "entry_hash": "d6f6ec2532cde66ec254c793b05e1390b7413e2d69862bfbe943f7fe04d8511b"
+  },
+  {
+    "index": 124,
+    "timestamp": 1788794313.087252,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "d6f6ec2532cde66ec254c793b05e1390b7413e2d69862bfbe943f7fe04d8511b",
+    "entry_hash": "4d387f2a2a82e49fc90e6dfb24872c65ede4a760a13d614ceb82b11cb58e1e20"
+  },
+  {
+    "index": 125,
+    "timestamp": 1788794313.087268,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.10"
+    },
+    "prev_hash": "4d387f2a2a82e49fc90e6dfb24872c65ede4a760a13d614ceb82b11cb58e1e20",
+    "entry_hash": "304b34f67d5591d1c93c4413fa5850696016339c14522f72e8b251f809be020f"
+  },
+  {
+    "index": 126,
+    "timestamp": 1788794313.087282,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.11"
+    },
+    "prev_hash": "304b34f67d5591d1c93c4413fa5850696016339c14522f72e8b251f809be020f",
+    "entry_hash": "ae03822d146da70f857cbc40224b8fd7a3024748c80b31c9c7cb69dd93fcd04f"
+  },
+  {
+    "index": 127,
+    "timestamp": 1788794313.0873,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.12"
+    },
+    "prev_hash": "ae03822d146da70f857cbc40224b8fd7a3024748c80b31c9c7cb69dd93fcd04f",
+    "entry_hash": "5380dcffc7f2718e82b6b9222d72a75676a1fe9d7a1708a44d66306cda108e88"
+  },
+  {
+    "index": 128,
+    "timestamp": 1788794313.087314,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.13"
+    },
+    "prev_hash": "5380dcffc7f2718e82b6b9222d72a75676a1fe9d7a1708a44d66306cda108e88",
+    "entry_hash": "5fe2966cdf4f7d30320eecb3ab69c64a61afa4f1f422a212382679b00489d5a7"
+  },
+  {
+    "index": 129,
+    "timestamp": 1788794313.087328,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "5fe2966cdf4f7d30320eecb3ab69c64a61afa4f1f422a212382679b00489d5a7",
+    "entry_hash": "def05c045c1041ee22e9a1f59bbee6d747efc523cc03f4d3171ea0a33dc4ad40"
+  },
+  {
+    "index": 130,
+    "timestamp": 1788794313.087341,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.15"
+    },
+    "prev_hash": "def05c045c1041ee22e9a1f59bbee6d747efc523cc03f4d3171ea0a33dc4ad40",
+    "entry_hash": "6d5b4829afb9b70bbd897ecba713f436a6c39bfce82da9bd35ad80ee180453f8"
+  },
+  {
+    "index": 131,
+    "timestamp": 1788794313.0873542,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.16"
+    },
+    "prev_hash": "6d5b4829afb9b70bbd897ecba713f436a6c39bfce82da9bd35ad80ee180453f8",
+    "entry_hash": "154c3e59825dd2e40d6d64977120efa3048caabce87f2ad515f798515b7eafcd"
+  },
+  {
+    "index": 132,
+    "timestamp": 1788794313.0873668,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.17"
+    },
+    "prev_hash": "154c3e59825dd2e40d6d64977120efa3048caabce87f2ad515f798515b7eafcd",
+    "entry_hash": "f569e9736831c18dcb56c6103049f2c42ee151d6c1120b154751d5227298975b"
+  },
+  {
+    "index": 133,
+    "timestamp": 1788794313.0873852,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.18"
+    },
+    "prev_hash": "f569e9736831c18dcb56c6103049f2c42ee151d6c1120b154751d5227298975b",
+    "entry_hash": "adf682d412cf9f389e47be506bcb3d63ed25609f6082ec222f3fb701202915d7"
+  },
+  {
+    "index": 134,
+    "timestamp": 1788794313.087399,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.19"
+    },
+    "prev_hash": "adf682d412cf9f389e47be506bcb3d63ed25609f6082ec222f3fb701202915d7",
+    "entry_hash": "fe75683a062a5321fc3b855029cbdd74f8e4a795b1e4a2372b873cc58f5041fb"
+  },
+  {
+    "index": 135,
+    "timestamp": 1788794313.0874119,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.20"
+    },
+    "prev_hash": "fe75683a062a5321fc3b855029cbdd74f8e4a795b1e4a2372b873cc58f5041fb",
+    "entry_hash": "1cc86902b0844d4f8d822aa54b072513dcbf751d8041ae2733a6d8b6134ed304"
+  },
+  {
+    "index": 136,
+    "timestamp": 1788794313.087425,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.21"
+    },
+    "prev_hash": "1cc86902b0844d4f8d822aa54b072513dcbf751d8041ae2733a6d8b6134ed304",
+    "entry_hash": "003981a51667b25a500fa5e832d6fe6cfbf0f4a91a7bfd5bf68e08a0356f8046"
+  },
+  {
+    "index": 137,
+    "timestamp": 1788794313.087438,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.22"
+    },
+    "prev_hash": "003981a51667b25a500fa5e832d6fe6cfbf0f4a91a7bfd5bf68e08a0356f8046",
+    "entry_hash": "820699933a886ede17f38dec42f093cf9e2260f72a383bb071c6ff75bb2faab6"
+  },
+  {
+    "index": 138,
+    "timestamp": 1788794313.087452,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.23"
+    },
+    "prev_hash": "820699933a886ede17f38dec42f093cf9e2260f72a383bb071c6ff75bb2faab6",
+    "entry_hash": "04107d05800f3d4f9f40228d5be258410619c8a7d5af84b337269a13436c2376"
+  },
+  {
+    "index": 139,
+    "timestamp": 1788794313.087465,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.24"
+    },
+    "prev_hash": "04107d05800f3d4f9f40228d5be258410619c8a7d5af84b337269a13436c2376",
+    "entry_hash": "59c986078be5db0be9dea985b4fcd0efb67b4c4b9161939fc1e51651b2229f37"
+  },
+  {
+    "index": 140,
+    "timestamp": 1788794313.087481,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.25"
+    },
+    "prev_hash": "59c986078be5db0be9dea985b4fcd0efb67b4c4b9161939fc1e51651b2229f37",
+    "entry_hash": "0bfab0508327161283982487fe950760340b2146113f90643d6a3439828542a2"
+  },
+  {
+    "index": 141,
+    "timestamp": 1788794313.08751,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "0bfab0508327161283982487fe950760340b2146113f90643d6a3439828542a2",
+    "entry_hash": "b720552488c16d813c4f92692d6f68406fee0adf4bbc054029ba7362bd915629"
+  },
+  {
+    "index": 142,
+    "timestamp": 1788794313.0875342,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "b720552488c16d813c4f92692d6f68406fee0adf4bbc054029ba7362bd915629",
+    "entry_hash": "4ec96e69817b750288825a6e9aa6cf2218ecff9e039cda627897283020ee99f4"
+  },
+  {
+    "index": 143,
+    "timestamp": 1788794313.087557,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "4ec96e69817b750288825a6e9aa6cf2218ecff9e039cda627897283020ee99f4",
+    "entry_hash": "e7e4bad098e4607876ddc1a843cac0e9195ae1e6ed6062aac5dff96838153372"
+  },
+  {
+    "index": 144,
+    "timestamp": 1788794313.08758,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "e7e4bad098e4607876ddc1a843cac0e9195ae1e6ed6062aac5dff96838153372",
+    "entry_hash": "5bde9206dcf6573d45fc7a02c35e6da88756382b95a9932210c0d08934e8c7b1"
+  },
+  {
+    "index": 145,
+    "timestamp": 1788794313.087602,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "5bde9206dcf6573d45fc7a02c35e6da88756382b95a9932210c0d08934e8c7b1",
+    "entry_hash": "c284cbcf9316b0d6d267e7b2a4e70e0ecf25ed836c8c8df54c04c995eb2aec28"
+  },
+  {
+    "index": 146,
+    "timestamp": 1788794313.087625,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "c284cbcf9316b0d6d267e7b2a4e70e0ecf25ed836c8c8df54c04c995eb2aec28",
+    "entry_hash": "bf99cc0ee3b21e2cd3884344d6c065142fbe35eb4242da459f34fd41101a9aa6"
+  },
+  {
+    "index": 147,
+    "timestamp": 1788794313.087647,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "bf99cc0ee3b21e2cd3884344d6c065142fbe35eb4242da459f34fd41101a9aa6",
+    "entry_hash": "b76f0c1593b4ac2ceb751ea859697a5db49ac00f09289a7c8c1f402d92f983a0"
+  },
+  {
+    "index": 148,
+    "timestamp": 1788794313.08767,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "b76f0c1593b4ac2ceb751ea859697a5db49ac00f09289a7c8c1f402d92f983a0",
+    "entry_hash": "2f095071b56419353dd677c057adf20b71a8f36f9b38bcb117c0e80258c708b4"
+  },
+  {
+    "index": 149,
+    "timestamp": 1788794313.087692,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "2f095071b56419353dd677c057adf20b71a8f36f9b38bcb117c0e80258c708b4",
+    "entry_hash": "625ee3ed1d91060255ad4aac2b8ce929761e0639a1cd3a009440b8ee542a368a"
+  },
+  {
+    "index": 150,
+    "timestamp": 1788794313.0877068,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.10"
+    },
+    "prev_hash": "625ee3ed1d91060255ad4aac2b8ce929761e0639a1cd3a009440b8ee542a368a",
+    "entry_hash": "897f66ec54b6f3603e5e3082a61af2f0eb4f544ca3b393a668c61d944cb603f2"
+  },
+  {
+    "index": 151,
+    "timestamp": 1788794313.087722,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.11"
+    },
+    "prev_hash": "897f66ec54b6f3603e5e3082a61af2f0eb4f544ca3b393a668c61d944cb603f2",
+    "entry_hash": "80ea8b4bebc306e96f07c2e61fe93181ebeca642fc832d75f797097ffe7028fa"
+  },
+  {
+    "index": 152,
+    "timestamp": 1788794313.087739,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.12"
+    },
+    "prev_hash": "80ea8b4bebc306e96f07c2e61fe93181ebeca642fc832d75f797097ffe7028fa",
+    "entry_hash": "28f008e131c4cb59e658e3136d1a286f5ea713a3760982d1b2cdad497ecbda72"
+  },
+  {
+    "index": 153,
+    "timestamp": 1788794313.087768,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.13"
+    },
+    "prev_hash": "28f008e131c4cb59e658e3136d1a286f5ea713a3760982d1b2cdad497ecbda72",
+    "entry_hash": "271889b8c8a1fc0b48c37e6ec4b299efb90c1b8dd6a01f282d2480343941f23a"
+  },
+  {
+    "index": 154,
+    "timestamp": 1788794313.087785,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "271889b8c8a1fc0b48c37e6ec4b299efb90c1b8dd6a01f282d2480343941f23a",
+    "entry_hash": "f5430f2c62ddd2475443141d21747bd36bb5a53f3a5e8a7f0516ba920b6df5ce"
+  },
+  {
+    "index": 155,
+    "timestamp": 1788794313.087798,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.15"
+    },
+    "prev_hash": "f5430f2c62ddd2475443141d21747bd36bb5a53f3a5e8a7f0516ba920b6df5ce",
+    "entry_hash": "959d2ab5a62ce950ecf40ff78c1aa76eb2632c22a0fdc509846b4b96e60bc0c0"
+  },
+  {
+    "index": 156,
+    "timestamp": 1788794313.087811,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.16"
+    },
+    "prev_hash": "959d2ab5a62ce950ecf40ff78c1aa76eb2632c22a0fdc509846b4b96e60bc0c0",
+    "entry_hash": "df057ff0a77f9e7126ec02c83f6d6d1780fa4ea44eb8ccb82e390ab329e6d78b"
+  },
+  {
+    "index": 157,
+    "timestamp": 1788794313.087827,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.17"
+    },
+    "prev_hash": "df057ff0a77f9e7126ec02c83f6d6d1780fa4ea44eb8ccb82e390ab329e6d78b",
+    "entry_hash": "63e4d8e5a95e9ee3a56ae79c17430be3de9af984b01bcdac589ba152954f3e29"
+  },
+  {
+    "index": 158,
+    "timestamp": 1788794313.08784,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.18"
+    },
+    "prev_hash": "63e4d8e5a95e9ee3a56ae79c17430be3de9af984b01bcdac589ba152954f3e29",
+    "entry_hash": "643f336113e6a63428dbbce9355772b65095bd5f07059520ef0e24103767c83f"
+  },
+  {
+    "index": 159,
+    "timestamp": 1788794313.087853,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.19"
+    },
+    "prev_hash": "643f336113e6a63428dbbce9355772b65095bd5f07059520ef0e24103767c83f",
+    "entry_hash": "f598267f37d9aac3bd5453e3c32e0213fb551f9c658594d480e15d386addc957"
+  },
+  {
+    "index": 160,
+    "timestamp": 1788794313.087866,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.20"
+    },
+    "prev_hash": "f598267f37d9aac3bd5453e3c32e0213fb551f9c658594d480e15d386addc957",
+    "entry_hash": "60261628e0866458442be3a6ccb4f1160af8663dd17be4a11f2a64a5611d041e"
+  },
+  {
+    "index": 161,
+    "timestamp": 1788794313.087879,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.21"
+    },
+    "prev_hash": "60261628e0866458442be3a6ccb4f1160af8663dd17be4a11f2a64a5611d041e",
+    "entry_hash": "5b02486f52dd7d44d2d4873d19eba1a0f3fcebbc27ce553af6754f9979ab70c1"
+  },
+  {
+    "index": 162,
+    "timestamp": 1788794313.087892,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.22"
+    },
+    "prev_hash": "5b02486f52dd7d44d2d4873d19eba1a0f3fcebbc27ce553af6754f9979ab70c1",
+    "entry_hash": "6a6f7f283bb54a5ed01dc114149ab07ece4c45d615dc76f24bc381084757bc57"
+  },
+  {
+    "index": 163,
+    "timestamp": 1788794313.087905,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.23"
+    },
+    "prev_hash": "6a6f7f283bb54a5ed01dc114149ab07ece4c45d615dc76f24bc381084757bc57",
+    "entry_hash": "a2c01213616b494887f28bcebf56e16c0cc14a95ca9bb731aa0fc7111b95e262"
+  },
+  {
+    "index": 164,
+    "timestamp": 1788794313.087918,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.24"
+    },
+    "prev_hash": "a2c01213616b494887f28bcebf56e16c0cc14a95ca9bb731aa0fc7111b95e262",
+    "entry_hash": "f1da067158471fee22c0ac4084c182c673448a52c8a8f665bc1bf9d614134cf8"
+  },
+  {
+    "index": 165,
+    "timestamp": 1788794313.0879328,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.25"
+    },
+    "prev_hash": "f1da067158471fee22c0ac4084c182c673448a52c8a8f665bc1bf9d614134cf8",
+    "entry_hash": "462d2f03727dfa1e2a33d48c3c9887c6b3e62d17e4b7a74c4f08a8eea4949ca8"
+  },
+  {
+    "index": 166,
+    "timestamp": 1788794313.0879629,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "462d2f03727dfa1e2a33d48c3c9887c6b3e62d17e4b7a74c4f08a8eea4949ca8",
+    "entry_hash": "6fde130a0f1735bf1e16e6b1540d11562753e3edda83f1c634d5db10e117fcde"
+  },
+  {
+    "index": 167,
+    "timestamp": 1788794313.087987,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "6fde130a0f1735bf1e16e6b1540d11562753e3edda83f1c634d5db10e117fcde",
+    "entry_hash": "33afc45cc604249df0b93fad9f3adfdd7ae5b0cd2039332c0f979b32c58e3fbc"
+  },
+  {
+    "index": 168,
+    "timestamp": 1788794313.08801,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "33afc45cc604249df0b93fad9f3adfdd7ae5b0cd2039332c0f979b32c58e3fbc",
+    "entry_hash": "11ab512c14a28dca46768cc8bd9e415836ee89f32f390727cbac6715b3675225"
+  },
+  {
+    "index": 169,
+    "timestamp": 1788794313.088032,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "11ab512c14a28dca46768cc8bd9e415836ee89f32f390727cbac6715b3675225",
+    "entry_hash": "447412663f5e66b2df3b713a0887756c693b739227b320e0d75fa061805df15e"
+  },
+  {
+    "index": 170,
+    "timestamp": 1788794313.0880551,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "447412663f5e66b2df3b713a0887756c693b739227b320e0d75fa061805df15e",
+    "entry_hash": "7c94fcd1851466507ee3aa63687caa71f4ee6bfda8b1808c7e127ed7fca70055"
+  },
+  {
+    "index": 171,
+    "timestamp": 1788794313.088077,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "7c94fcd1851466507ee3aa63687caa71f4ee6bfda8b1808c7e127ed7fca70055",
+    "entry_hash": "d295da1da9df6a3e47fdabed37f64b284b8f1cd5448cc57948e672ebe1ade88f"
+  },
+  {
+    "index": 172,
+    "timestamp": 1788794313.088099,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "d295da1da9df6a3e47fdabed37f64b284b8f1cd5448cc57948e672ebe1ade88f",
+    "entry_hash": "e5f9b092aa7261277d613a35936337b8f258ec1818b3bf7353be1f6f57dc986e"
+  },
+  {
+    "index": 173,
+    "timestamp": 1788794313.0881212,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "e5f9b092aa7261277d613a35936337b8f258ec1818b3bf7353be1f6f57dc986e",
+    "entry_hash": "fcd7154c3ddde233e985dcb1b65adbd4b8fd0c319d9818fa897b25227f4dbf77"
+  },
+  {
+    "index": 174,
+    "timestamp": 1788794313.088147,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "fcd7154c3ddde233e985dcb1b65adbd4b8fd0c319d9818fa897b25227f4dbf77",
+    "entry_hash": "0cbafcedbceaa8c628e6773f9a165ae3532e34e47c943ed0ea4f1c31e3a9837d"
+  },
+  {
+    "index": 175,
+    "timestamp": 1788794313.088162,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.10"
+    },
+    "prev_hash": "0cbafcedbceaa8c628e6773f9a165ae3532e34e47c943ed0ea4f1c31e3a9837d",
+    "entry_hash": "cbeed85413f88eff681ad2275cc23e77f05140ba1329ac9041af00a48ad0e8ff"
+  },
+  {
+    "index": 176,
+    "timestamp": 1788794313.088176,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.11"
+    },
+    "prev_hash": "cbeed85413f88eff681ad2275cc23e77f05140ba1329ac9041af00a48ad0e8ff",
+    "entry_hash": "b2bed69798f227f7900af3fe1f9b0422674e97ce5c620c63b7f450f005d20dc8"
+  },
+  {
+    "index": 177,
+    "timestamp": 1788794313.088193,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.12"
+    },
+    "prev_hash": "b2bed69798f227f7900af3fe1f9b0422674e97ce5c620c63b7f450f005d20dc8",
+    "entry_hash": "6b8dd42b93ea70f407072754983cd869c3d8de60999f8210f9d1b53adee6b160"
+  },
+  {
+    "index": 178,
+    "timestamp": 1788794313.088207,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.13"
+    },
+    "prev_hash": "6b8dd42b93ea70f407072754983cd869c3d8de60999f8210f9d1b53adee6b160",
+    "entry_hash": "b90c6a6e747bbc6f512106393fb66693a777c60bec7ea7b49e93f919d1a8035b"
+  },
+  {
+    "index": 179,
+    "timestamp": 1788794313.08822,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "b90c6a6e747bbc6f512106393fb66693a777c60bec7ea7b49e93f919d1a8035b",
+    "entry_hash": "5ad019accf68ee474d956eda055c7b5f03df6b7f161464aced5f3a811f4118c7"
+  },
+  {
+    "index": 180,
+    "timestamp": 1788794313.088233,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.15"
+    },
+    "prev_hash": "5ad019accf68ee474d956eda055c7b5f03df6b7f161464aced5f3a811f4118c7",
+    "entry_hash": "02da7cc594bb5164ea671331d32adc5de718ceeb3e7fe2f94f297bf740cb92f7"
+  },
+  {
+    "index": 181,
+    "timestamp": 1788794313.0882502,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.16"
+    },
+    "prev_hash": "02da7cc594bb5164ea671331d32adc5de718ceeb3e7fe2f94f297bf740cb92f7",
+    "entry_hash": "e6ab14e336674e43b1977ab4a95bbb6aa6fbed8fd6a9e2ae920841190ff5fe3e"
+  },
+  {
+    "index": 182,
+    "timestamp": 1788794313.0882628,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.17"
+    },
+    "prev_hash": "e6ab14e336674e43b1977ab4a95bbb6aa6fbed8fd6a9e2ae920841190ff5fe3e",
+    "entry_hash": "58dad79d8b2f725ebb16cfc31d8d87c765a1708e62c718dcb14e0f4a09d344eb"
+  },
+  {
+    "index": 183,
+    "timestamp": 1788794313.088276,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.18"
+    },
+    "prev_hash": "58dad79d8b2f725ebb16cfc31d8d87c765a1708e62c718dcb14e0f4a09d344eb",
+    "entry_hash": "3bd52fd6a3e6080c6f37370e2149d90fe84a843c83a1fdb7117fdab574426990"
+  },
+  {
+    "index": 184,
+    "timestamp": 1788794313.08829,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.19"
+    },
+    "prev_hash": "3bd52fd6a3e6080c6f37370e2149d90fe84a843c83a1fdb7117fdab574426990",
+    "entry_hash": "1f8bd7570a47e0a54ed81a387d92c2f9deb2622d635e953fb81de95d26787795"
+  },
+  {
+    "index": 185,
+    "timestamp": 1788794313.088305,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.20"
+    },
+    "prev_hash": "1f8bd7570a47e0a54ed81a387d92c2f9deb2622d635e953fb81de95d26787795",
+    "entry_hash": "722f84331f2e6b81313a6411fca3fc86aa72a1441d8c94302db59fcee4005d5e"
+  },
+  {
+    "index": 186,
+    "timestamp": 1788794313.088319,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.21"
+    },
+    "prev_hash": "722f84331f2e6b81313a6411fca3fc86aa72a1441d8c94302db59fcee4005d5e",
+    "entry_hash": "60761d66fe3056fe337c96f19339f1e51b8a992aa9eeb977b0858e1b62d9d474"
+  },
+  {
+    "index": 187,
+    "timestamp": 1788794313.088332,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.22"
+    },
+    "prev_hash": "60761d66fe3056fe337c96f19339f1e51b8a992aa9eeb977b0858e1b62d9d474",
+    "entry_hash": "9231728dcbcc9bacfe37c9a91b778c43556af00da9f625e4fb5df3b7c6f56ec2"
+  },
+  {
+    "index": 188,
+    "timestamp": 1788794313.088345,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.23"
+    },
+    "prev_hash": "9231728dcbcc9bacfe37c9a91b778c43556af00da9f625e4fb5df3b7c6f56ec2",
+    "entry_hash": "f2d1db0a4c17dbe29dfd3bd4dc60e1bf43fb4477a0afda0081bd00251d02f7f8"
+  },
+  {
+    "index": 189,
+    "timestamp": 1788794313.088358,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.24"
+    },
+    "prev_hash": "f2d1db0a4c17dbe29dfd3bd4dc60e1bf43fb4477a0afda0081bd00251d02f7f8",
+    "entry_hash": "03fff4c81e251f31658ceb1dc341a63493d063f284ddc5cfa592c3f98092c970"
+  },
+  {
+    "index": 190,
+    "timestamp": 1788794313.088374,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.25"
+    },
+    "prev_hash": "03fff4c81e251f31658ceb1dc341a63493d063f284ddc5cfa592c3f98092c970",
+    "entry_hash": "8d1a0a1ce3bf218d228c7eb5306d3f9d0e2de9a89db88c4fac180ee4ba2836eb"
+  },
+  {
+    "index": 191,
+    "timestamp": 1788794313.088403,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "8d1a0a1ce3bf218d228c7eb5306d3f9d0e2de9a89db88c4fac180ee4ba2836eb",
+    "entry_hash": "494c07533289269ea194a74497a90faa53f4484a4aef4f0d6b25e224b7fa1a6d"
+  },
+  {
+    "index": 192,
+    "timestamp": 1788794313.088427,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "494c07533289269ea194a74497a90faa53f4484a4aef4f0d6b25e224b7fa1a6d",
+    "entry_hash": "9171dce0d41f3db853e25050a53b8ca047b507bb9b30973496b816195fc656d7"
+  },
+  {
+    "index": 193,
+    "timestamp": 1788794313.088449,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "9171dce0d41f3db853e25050a53b8ca047b507bb9b30973496b816195fc656d7",
+    "entry_hash": "74f2df9c7ca1d44114506749055f7074f5b2cbe753bc461ce77f08cf2dda2d05"
+  },
+  {
+    "index": 194,
+    "timestamp": 1788794313.0884721,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "74f2df9c7ca1d44114506749055f7074f5b2cbe753bc461ce77f08cf2dda2d05",
+    "entry_hash": "75537c4e31700d9f85df63d0d8d33514d6a527255d2edee1638f626880c24363"
+  },
+  {
+    "index": 195,
+    "timestamp": 1788794313.088495,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "75537c4e31700d9f85df63d0d8d33514d6a527255d2edee1638f626880c24363",
+    "entry_hash": "333d673512f68bddd28a91dc250c5bdb7cc34c63d4646aafd6550346018300d7"
+  },
+  {
+    "index": 196,
+    "timestamp": 1788794313.0885172,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "333d673512f68bddd28a91dc250c5bdb7cc34c63d4646aafd6550346018300d7",
+    "entry_hash": "be907e0b24864ff0eae1f753165621e1755f51efce5dffec225095cccc36051e"
+  },
+  {
+    "index": 197,
+    "timestamp": 1788794313.088539,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "be907e0b24864ff0eae1f753165621e1755f51efce5dffec225095cccc36051e",
+    "entry_hash": "fa053fb6af22980ce13368899418b68c15dad25aff0ff0688315d013be0ec150"
+  },
+  {
+    "index": 198,
+    "timestamp": 1788794313.088562,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "fa053fb6af22980ce13368899418b68c15dad25aff0ff0688315d013be0ec150",
+    "entry_hash": "27ebe96d6935c88e1c3b3ba73020ef4ceaff4c645bb6e58a966661b6ce3352ea"
+  },
+  {
+    "index": 199,
+    "timestamp": 1788794313.088584,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "27ebe96d6935c88e1c3b3ba73020ef4ceaff4c645bb6e58a966661b6ce3352ea",
+    "entry_hash": "9fca0c7e32257f8b3730d271d8b602c69027d989aa012898b4a83d24dbe3e448"
+  },
+  {
+    "index": 200,
+    "timestamp": 1788794313.088599,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.10"
+    },
+    "prev_hash": "9fca0c7e32257f8b3730d271d8b602c69027d989aa012898b4a83d24dbe3e448",
+    "entry_hash": "b6f5eae9feee39aa40af450481a7a2ff56c63b8df532d60b131ee637d274ead0"
+  },
+  {
+    "index": 201,
+    "timestamp": 1788794313.088612,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.11"
+    },
+    "prev_hash": "b6f5eae9feee39aa40af450481a7a2ff56c63b8df532d60b131ee637d274ead0",
+    "entry_hash": "cbdf939be61f828d3d6383edf122b475d358361af76861af6573200f4031cce0"
+  },
+  {
+    "index": 202,
+    "timestamp": 1788794313.088629,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.12"
+    },
+    "prev_hash": "cbdf939be61f828d3d6383edf122b475d358361af76861af6573200f4031cce0",
+    "entry_hash": "19c7c89e9cbef831d8526329dac4314df15b5744897dda30a432f99d0ce8f93a"
+  },
+  {
+    "index": 203,
+    "timestamp": 1788794313.088643,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.13"
+    },
+    "prev_hash": "19c7c89e9cbef831d8526329dac4314df15b5744897dda30a432f99d0ce8f93a",
+    "entry_hash": "7624df25a50c26a73c41c61d6597f71e11528c230d8242e3923425761d6283a7"
+  },
+  {
+    "index": 204,
+    "timestamp": 1788794313.088656,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "7624df25a50c26a73c41c61d6597f71e11528c230d8242e3923425761d6283a7",
+    "entry_hash": "af72a5bf1b7a80f63fd7377da3ee43c1d95ba5c73623c3343d68d46023a6c890"
+  },
+  {
+    "index": 205,
+    "timestamp": 1788794313.088672,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.15"
+    },
+    "prev_hash": "af72a5bf1b7a80f63fd7377da3ee43c1d95ba5c73623c3343d68d46023a6c890",
+    "entry_hash": "7f76956aa4f137af4d5511dffbb7398d1c3677afd4f7ee2b2da22ba52d3ff5d0"
+  },
+  {
+    "index": 206,
+    "timestamp": 1788794313.088686,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.16"
+    },
+    "prev_hash": "7f76956aa4f137af4d5511dffbb7398d1c3677afd4f7ee2b2da22ba52d3ff5d0",
+    "entry_hash": "ac4c6304adb044cdbceda1862a92256b19d206476a6120472324149dee58c334"
+  },
+  {
+    "index": 207,
+    "timestamp": 1788794313.0886981,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.17"
+    },
+    "prev_hash": "ac4c6304adb044cdbceda1862a92256b19d206476a6120472324149dee58c334",
+    "entry_hash": "21eaf2dba8c872720dc59561b4d41867686479aecfffb1941362782a7bcb8cb5"
+  },
+  {
+    "index": 208,
+    "timestamp": 1788794313.088712,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.18"
+    },
+    "prev_hash": "21eaf2dba8c872720dc59561b4d41867686479aecfffb1941362782a7bcb8cb5",
+    "entry_hash": "77095a1cf3a069a1a27021e47c77e7dbb0e0a3593f68eddd91f0e832f2bdd4a9"
+  },
+  {
+    "index": 209,
+    "timestamp": 1788794313.088725,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.19"
+    },
+    "prev_hash": "77095a1cf3a069a1a27021e47c77e7dbb0e0a3593f68eddd91f0e832f2bdd4a9",
+    "entry_hash": "5db8b7f7a1764943d723efd845f0d6b131a9ef64d3d92b162d9bbb5e7db62644"
+  },
+  {
+    "index": 210,
+    "timestamp": 1788794313.088738,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.20"
+    },
+    "prev_hash": "5db8b7f7a1764943d723efd845f0d6b131a9ef64d3d92b162d9bbb5e7db62644",
+    "entry_hash": "449a1445d55315108287a0a11e258a6a5184943535b6283b16f65713e01d64b0"
+  },
+  {
+    "index": 211,
+    "timestamp": 1788794313.088751,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.21"
+    },
+    "prev_hash": "449a1445d55315108287a0a11e258a6a5184943535b6283b16f65713e01d64b0",
+    "entry_hash": "7244c54f206f3ca3feb60236566059472951c9fd2f5a5398b23c695778c10e21"
+  },
+  {
+    "index": 212,
+    "timestamp": 1788794313.088764,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.22"
+    },
+    "prev_hash": "7244c54f206f3ca3feb60236566059472951c9fd2f5a5398b23c695778c10e21",
+    "entry_hash": "8a218948aa75b90d5b58440a59968a1bcf910410d793b43a19177a81c53d620c"
+  },
+  {
+    "index": 213,
+    "timestamp": 1788794313.088777,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.23"
+    },
+    "prev_hash": "8a218948aa75b90d5b58440a59968a1bcf910410d793b43a19177a81c53d620c",
+    "entry_hash": "c1fc66ff42820ecf13f537b7d8c0c61647592f663661d891dc73caf288ac0ab9"
+  },
+  {
+    "index": 214,
+    "timestamp": 1788794313.088793,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.24"
+    },
+    "prev_hash": "c1fc66ff42820ecf13f537b7d8c0c61647592f663661d891dc73caf288ac0ab9",
+    "entry_hash": "27a1f54a7e6d7af8a75850ad5663b6d42b6f413b0c51742c0d17703bf6122c52"
+  },
+  {
+    "index": 215,
+    "timestamp": 1788794313.08881,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.25"
+    },
+    "prev_hash": "27a1f54a7e6d7af8a75850ad5663b6d42b6f413b0c51742c0d17703bf6122c52",
+    "entry_hash": "5fc9b4e507e5d91387385494d0d4a2cdaab043b3ee53353cc6aa991d74104276"
+  },
+  {
+    "index": 216,
+    "timestamp": 1788794313.088842,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "5fc9b4e507e5d91387385494d0d4a2cdaab043b3ee53353cc6aa991d74104276",
+    "entry_hash": "fb9bdf40183b6089b7c629fb5f15194051efb239313c70bd55953124b7da44ab"
+  },
+  {
+    "index": 217,
+    "timestamp": 1788794313.088866,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "fb9bdf40183b6089b7c629fb5f15194051efb239313c70bd55953124b7da44ab",
+    "entry_hash": "791528b65645be9f570e6c537d9aed40f9858207c421b86cdfd0cd87006381f6"
+  },
+  {
+    "index": 218,
+    "timestamp": 1788794313.0888882,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "791528b65645be9f570e6c537d9aed40f9858207c421b86cdfd0cd87006381f6",
+    "entry_hash": "3193b7b9fc98ca5116a9e0a80da42fcddb67bbc13202dd39367c39adb7115f3f"
+  },
+  {
+    "index": 219,
+    "timestamp": 1788794313.088911,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "3193b7b9fc98ca5116a9e0a80da42fcddb67bbc13202dd39367c39adb7115f3f",
+    "entry_hash": "3f40343f48c4f8fa8ad3f67f7ea9d1f992b13743768e4a8c10ab0b4cfa0a7d6d"
+  },
+  {
+    "index": 220,
+    "timestamp": 1788794313.088934,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "3f40343f48c4f8fa8ad3f67f7ea9d1f992b13743768e4a8c10ab0b4cfa0a7d6d",
+    "entry_hash": "1ad5e78910ed87088856563979c92b96f8e25a0414898885d2109e9ec8f4be16"
+  },
+  {
+    "index": 221,
+    "timestamp": 1788794313.0889559,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "1ad5e78910ed87088856563979c92b96f8e25a0414898885d2109e9ec8f4be16",
+    "entry_hash": "06aa06a9e57647079e5592a173b3cd72af2139a51251aa6cd99b9cd55f9e565d"
+  },
+  {
+    "index": 222,
+    "timestamp": 1788794313.088979,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "06aa06a9e57647079e5592a173b3cd72af2139a51251aa6cd99b9cd55f9e565d",
+    "entry_hash": "53ad05663764b21145c32ee8d5dce03344e5a1e0380e0301bbf7acba2691bae0"
+  },
+  {
+    "index": 223,
+    "timestamp": 1788794313.089002,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "53ad05663764b21145c32ee8d5dce03344e5a1e0380e0301bbf7acba2691bae0",
+    "entry_hash": "821c2d0c7e542af0b9fbf036b3b89c17ab0e262de9e2f51414bc9b5ebb2cc6c9"
+  },
+  {
+    "index": 224,
+    "timestamp": 1788794313.089024,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "821c2d0c7e542af0b9fbf036b3b89c17ab0e262de9e2f51414bc9b5ebb2cc6c9",
+    "entry_hash": "80862d3e3890ceb16bb40b3a69be0602f982cdb79b738a89de207eac6a88d26c"
+  },
+  {
+    "index": 225,
+    "timestamp": 1788794313.089039,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.10"
+    },
+    "prev_hash": "80862d3e3890ceb16bb40b3a69be0602f982cdb79b738a89de207eac6a88d26c",
+    "entry_hash": "52eb89686ba02f06ab6cbad914a82f4a94739fc648f105bfce05221265caf08b"
+  },
+  {
+    "index": 226,
+    "timestamp": 1788794313.089053,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.11"
+    },
+    "prev_hash": "52eb89686ba02f06ab6cbad914a82f4a94739fc648f105bfce05221265caf08b",
+    "entry_hash": "739fbdd228479f7e22b92e3bcda3aa4999c602d524dcee5936cc604498d7c350"
+  },
+  {
+    "index": 227,
+    "timestamp": 1788794313.08907,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.12"
+    },
+    "prev_hash": "739fbdd228479f7e22b92e3bcda3aa4999c602d524dcee5936cc604498d7c350",
+    "entry_hash": "57ee7bd0b387e613c81354dfb5b41d2d0d3e2b35b587ef89ce20eae6d2b360be"
+  },
+  {
+    "index": 228,
+    "timestamp": 1788794313.089083,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.13"
+    },
+    "prev_hash": "57ee7bd0b387e613c81354dfb5b41d2d0d3e2b35b587ef89ce20eae6d2b360be",
+    "entry_hash": "ad63e1ec724509806858e7b7378e83a92775fbd411c3962f1b5625e1f8be4068"
+  },
+  {
+    "index": 229,
+    "timestamp": 1788794313.089099,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "ad63e1ec724509806858e7b7378e83a92775fbd411c3962f1b5625e1f8be4068",
+    "entry_hash": "b1d2a4408fd4b70c2bbe2017ca93ec59f5c838b448f73d6dd9817cc4fc65ea75"
+  },
+  {
+    "index": 230,
+    "timestamp": 1788794313.089113,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.15"
+    },
+    "prev_hash": "b1d2a4408fd4b70c2bbe2017ca93ec59f5c838b448f73d6dd9817cc4fc65ea75",
+    "entry_hash": "90d0ad45199219fac7adaa3d740f0abe136259ef170275e6f48d0e6da0bd1709"
+  },
+  {
+    "index": 231,
+    "timestamp": 1788794313.0891259,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.16"
+    },
+    "prev_hash": "90d0ad45199219fac7adaa3d740f0abe136259ef170275e6f48d0e6da0bd1709",
+    "entry_hash": "7ffc0b605952af0f0cd5d819a8884112577e1eb301cb41f9678162c136799b40"
+  },
+  {
+    "index": 232,
+    "timestamp": 1788794313.089139,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.17"
+    },
+    "prev_hash": "7ffc0b605952af0f0cd5d819a8884112577e1eb301cb41f9678162c136799b40",
+    "entry_hash": "87f1455584fac49d8dfb78cef70d40b677044f5548f09ea3634c05f2f396ca56"
+  },
+  {
+    "index": 233,
+    "timestamp": 1788794313.089152,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.18"
+    },
+    "prev_hash": "87f1455584fac49d8dfb78cef70d40b677044f5548f09ea3634c05f2f396ca56",
+    "entry_hash": "82a1ee115e5886204b4b13b52715cc176a729c865b3f640b81c7c5cfdf312ac6"
+  },
+  {
+    "index": 234,
+    "timestamp": 1788794313.0891662,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.19"
+    },
+    "prev_hash": "82a1ee115e5886204b4b13b52715cc176a729c865b3f640b81c7c5cfdf312ac6",
+    "entry_hash": "71dc4866fe7c25d96078f1cbff8fe702ea9b549abe5b3ebf845b0dd58fea9400"
+  },
+  {
+    "index": 235,
+    "timestamp": 1788794313.0891788,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.20"
+    },
+    "prev_hash": "71dc4866fe7c25d96078f1cbff8fe702ea9b549abe5b3ebf845b0dd58fea9400",
+    "entry_hash": "8e491349ea40809ca6b94777b9adbf1b09516b8793f585dbc3d0de74a23b140e"
+  },
+  {
+    "index": 236,
+    "timestamp": 1788794313.089195,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.21"
+    },
+    "prev_hash": "8e491349ea40809ca6b94777b9adbf1b09516b8793f585dbc3d0de74a23b140e",
+    "entry_hash": "e5158f90776555f9b5c5a063df83dd5c7c045ee2cf7a76f8eec75d94fd1c997e"
+  },
+  {
+    "index": 237,
+    "timestamp": 1788794313.089209,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.22"
+    },
+    "prev_hash": "e5158f90776555f9b5c5a063df83dd5c7c045ee2cf7a76f8eec75d94fd1c997e",
+    "entry_hash": "3b9148205dd3166b42d43340b2134a216d8afe87a89f526dfdafea71e33371f2"
+  },
+  {
+    "index": 238,
+    "timestamp": 1788794313.089223,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.23"
+    },
+    "prev_hash": "3b9148205dd3166b42d43340b2134a216d8afe87a89f526dfdafea71e33371f2",
+    "entry_hash": "28c453dd8ce652fe3308de17075f8a6e02f5d0a1abaccd0944290f79725c349d"
+  },
+  {
+    "index": 239,
+    "timestamp": 1788794313.089236,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.24"
+    },
+    "prev_hash": "28c453dd8ce652fe3308de17075f8a6e02f5d0a1abaccd0944290f79725c349d",
+    "entry_hash": "084e7672b1ec6349a99e78009c1233a5b2ee1a834047391ed8a38fae9432cb47"
+  },
+  {
+    "index": 240,
+    "timestamp": 1788794313.089252,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.25"
+    },
+    "prev_hash": "084e7672b1ec6349a99e78009c1233a5b2ee1a834047391ed8a38fae9432cb47",
+    "entry_hash": "f87e3d4496abd304e6e9c6deccb33976a8e26006555a7df80df7e997b3ff534b"
+  },
+  {
+    "index": 241,
+    "timestamp": 1788794313.0892851,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "f87e3d4496abd304e6e9c6deccb33976a8e26006555a7df80df7e997b3ff534b",
+    "entry_hash": "f4ee21f9f2cab6e4ce09cdcf4949b360c6b6ba81a0998d3375b555b8f1d36e86"
+  },
+  {
+    "index": 242,
+    "timestamp": 1788794313.089312,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "f4ee21f9f2cab6e4ce09cdcf4949b360c6b6ba81a0998d3375b555b8f1d36e86",
+    "entry_hash": "d2555f2558ce59e03f835464e8bb5aede355888f021f0e306132809492d2fc47"
+  },
+  {
+    "index": 243,
+    "timestamp": 1788794313.0893362,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "d2555f2558ce59e03f835464e8bb5aede355888f021f0e306132809492d2fc47",
+    "entry_hash": "119e761af1428b0922ddad446604311afffbb41e3ee0f4ec0a9dc37f4841e867"
+  },
+  {
+    "index": 244,
+    "timestamp": 1788794313.089359,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "119e761af1428b0922ddad446604311afffbb41e3ee0f4ec0a9dc37f4841e867",
+    "entry_hash": "41c2ce2c480dcf801240d25b4321ee09c51643dcb4f87ae3755076b3a45ff779"
+  },
+  {
+    "index": 245,
+    "timestamp": 1788794313.0893812,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "41c2ce2c480dcf801240d25b4321ee09c51643dcb4f87ae3755076b3a45ff779",
+    "entry_hash": "b32b9611fdd73f7e848dea7a21a25104288be0f79d71f4d7712778749a1453c7"
+  },
+  {
+    "index": 246,
+    "timestamp": 1788794313.089403,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "b32b9611fdd73f7e848dea7a21a25104288be0f79d71f4d7712778749a1453c7",
+    "entry_hash": "77488cba96d2471863c6153b46f0e8aded035efe88dc31cbcfe7bf11bb08c3cd"
+  },
+  {
+    "index": 247,
+    "timestamp": 1788794313.0894258,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "77488cba96d2471863c6153b46f0e8aded035efe88dc31cbcfe7bf11bb08c3cd",
+    "entry_hash": "3b70b0b8d044da5960938f91ce53526d943d84af20f07d10c34ec8797b132536"
+  },
+  {
+    "index": 248,
+    "timestamp": 1788794313.089448,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "3b70b0b8d044da5960938f91ce53526d943d84af20f07d10c34ec8797b132536",
+    "entry_hash": "492db7fa4bc61380fa2bebd7463a332f32fb7b56ced9dc38cbad6a727d49c6fa"
+  },
+  {
+    "index": 249,
+    "timestamp": 1788794313.089474,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "492db7fa4bc61380fa2bebd7463a332f32fb7b56ced9dc38cbad6a727d49c6fa",
+    "entry_hash": "e9e49dc08452fb31c2636c35c575b6e1239006ae34eb641512acd7d29369967a"
+  },
+  {
+    "index": 250,
+    "timestamp": 1788794313.089489,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.10"
+    },
+    "prev_hash": "e9e49dc08452fb31c2636c35c575b6e1239006ae34eb641512acd7d29369967a",
+    "entry_hash": "8a15cfbd7c2ffd0e1dfca272dda48a133e7d7894ad4db73ab9fc8b94a95cbf96"
+  },
+  {
+    "index": 251,
+    "timestamp": 1788794313.089503,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.11"
+    },
+    "prev_hash": "8a15cfbd7c2ffd0e1dfca272dda48a133e7d7894ad4db73ab9fc8b94a95cbf96",
+    "entry_hash": "499b0b6569c65960f3905a7b7fd5f53605c283f99686f1324077e5122915cfb4"
+  },
+  {
+    "index": 252,
+    "timestamp": 1788794313.089521,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.12"
+    },
+    "prev_hash": "499b0b6569c65960f3905a7b7fd5f53605c283f99686f1324077e5122915cfb4",
+    "entry_hash": "8f0f5a9bfa6103cea11c2d295525b6b25b3d3b7169e73540db512118588b00dc"
+  },
+  {
+    "index": 253,
+    "timestamp": 1788794313.089535,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.13"
+    },
+    "prev_hash": "8f0f5a9bfa6103cea11c2d295525b6b25b3d3b7169e73540db512118588b00dc",
+    "entry_hash": "cb3a12153c82c37617401a4fb510f04b22e3bb3f31dc372fea4f7fceaa8faba7"
+  },
+  {
+    "index": 254,
+    "timestamp": 1788794313.0895948,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "cb3a12153c82c37617401a4fb510f04b22e3bb3f31dc372fea4f7fceaa8faba7",
+    "entry_hash": "74842133909a80090afc7fc22d68985c6c7946682e4acbb60ea04f739d13e7e3"
+  },
+  {
+    "index": 255,
+    "timestamp": 1788794313.08961,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.15"
+    },
+    "prev_hash": "74842133909a80090afc7fc22d68985c6c7946682e4acbb60ea04f739d13e7e3",
+    "entry_hash": "a9a6b6b772722ef216bfb18cdad8ff643de492c6f0333dc47a4d4aaceeabdda0"
+  },
+  {
+    "index": 256,
+    "timestamp": 1788794313.0896242,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.16"
+    },
+    "prev_hash": "a9a6b6b772722ef216bfb18cdad8ff643de492c6f0333dc47a4d4aaceeabdda0",
+    "entry_hash": "2fda98ce51f1a8ecd1b87f778322fc72e97606606eba00c4b2df52492796ce25"
+  },
+  {
+    "index": 257,
+    "timestamp": 1788794313.089638,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.17"
+    },
+    "prev_hash": "2fda98ce51f1a8ecd1b87f778322fc72e97606606eba00c4b2df52492796ce25",
+    "entry_hash": "ba1d757cc4230c348120110449e0bd13cb2beca05b474219f22af7e75f41b2ce"
+  },
+  {
+    "index": 258,
+    "timestamp": 1788794313.0896509,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.18"
+    },
+    "prev_hash": "ba1d757cc4230c348120110449e0bd13cb2beca05b474219f22af7e75f41b2ce",
+    "entry_hash": "3a7d410cb4bad48b42981c4f81eeb9a4f97cb9ea5981adefd1180cadf45387a7"
+  },
+  {
+    "index": 259,
+    "timestamp": 1788794313.089665,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.19"
+    },
+    "prev_hash": "3a7d410cb4bad48b42981c4f81eeb9a4f97cb9ea5981adefd1180cadf45387a7",
+    "entry_hash": "8423959da64364c1ebd198c2deceafa721bae9052944f70c50ce75f274f35fa0"
+  },
+  {
+    "index": 260,
+    "timestamp": 1788794313.089681,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.20"
+    },
+    "prev_hash": "8423959da64364c1ebd198c2deceafa721bae9052944f70c50ce75f274f35fa0",
+    "entry_hash": "b8a2ff5b3b339e54d3eef45f734113c5a77a19485be3a0858d2577c4baae0d87"
+  },
+  {
+    "index": 261,
+    "timestamp": 1788794313.089695,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.21"
+    },
+    "prev_hash": "b8a2ff5b3b339e54d3eef45f734113c5a77a19485be3a0858d2577c4baae0d87",
+    "entry_hash": "5b73775d71ba67aca88eb6228f1d077995d4ac0254e82b9e0e48bd1cda184a5e"
+  },
+  {
+    "index": 262,
+    "timestamp": 1788794313.089708,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.22"
+    },
+    "prev_hash": "5b73775d71ba67aca88eb6228f1d077995d4ac0254e82b9e0e48bd1cda184a5e",
+    "entry_hash": "613122612779018840f7ba839a6193eb3116f2dcd1bbdb07629ea7190ef61804"
+  },
+  {
+    "index": 263,
+    "timestamp": 1788794313.0897222,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.23"
+    },
+    "prev_hash": "613122612779018840f7ba839a6193eb3116f2dcd1bbdb07629ea7190ef61804",
+    "entry_hash": "b32ff672199f24d72cb0b5895809c8ec5a3953fda8436f49470009b3b4266712"
+  },
+  {
+    "index": 264,
+    "timestamp": 1788794313.089738,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.24"
+    },
+    "prev_hash": "b32ff672199f24d72cb0b5895809c8ec5a3953fda8436f49470009b3b4266712",
+    "entry_hash": "6c32ef486efbd02e34482358c94a3467f1eaada43cdb0266ace97e679bfd8a75"
+  },
+  {
+    "index": 265,
+    "timestamp": 1788794313.089754,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.25"
+    },
+    "prev_hash": "6c32ef486efbd02e34482358c94a3467f1eaada43cdb0266ace97e679bfd8a75",
+    "entry_hash": "94af47f27597312439358610c4cc9d8d2b62db05cfd2c575f8048bd5987ce1e1"
+  },
+  {
+    "index": 266,
+    "timestamp": 1788794313.089785,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "94af47f27597312439358610c4cc9d8d2b62db05cfd2c575f8048bd5987ce1e1",
+    "entry_hash": "c55b3340125ebfe505888060af13afbfc3c87000515c22acc7c0d3bfb649b670"
+  },
+  {
+    "index": 267,
+    "timestamp": 1788794313.089809,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "c55b3340125ebfe505888060af13afbfc3c87000515c22acc7c0d3bfb649b670",
+    "entry_hash": "7206bcb770119ee4828339038760792051fdfae956cbfbc310261f1634125aa5"
+  },
+  {
+    "index": 268,
+    "timestamp": 1788794313.0898318,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "7206bcb770119ee4828339038760792051fdfae956cbfbc310261f1634125aa5",
+    "entry_hash": "2c6c2d08ddd78f154308a0fad1d7061e565bf02d3ea709924b6a000872592363"
+  },
+  {
+    "index": 269,
+    "timestamp": 1788794313.089855,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "2c6c2d08ddd78f154308a0fad1d7061e565bf02d3ea709924b6a000872592363",
+    "entry_hash": "29e706ce7cca7ed89bb37f6a6baea8b620f3d78e6d33e3069a2a932cb5e947ea"
+  },
+  {
+    "index": 270,
+    "timestamp": 1788794313.089879,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "29e706ce7cca7ed89bb37f6a6baea8b620f3d78e6d33e3069a2a932cb5e947ea",
+    "entry_hash": "375ea76b44442b800520417972891d617dfa29fdd51f958a3e5727fc1c3e25bb"
+  },
+  {
+    "index": 271,
+    "timestamp": 1788794313.0899022,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "375ea76b44442b800520417972891d617dfa29fdd51f958a3e5727fc1c3e25bb",
+    "entry_hash": "4ffa795698a5a37dfaa4ca1ea8caff30a337772b3a363dd35e9d83b8378ff08d"
+  },
+  {
+    "index": 272,
+    "timestamp": 1788794313.089924,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "4ffa795698a5a37dfaa4ca1ea8caff30a337772b3a363dd35e9d83b8378ff08d",
+    "entry_hash": "3d980e00e5e012654f5964329a3eea67a98de062cbec440763a3b0f660f9d37c"
+  },
+  {
+    "index": 273,
+    "timestamp": 1788794313.089947,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "3d980e00e5e012654f5964329a3eea67a98de062cbec440763a3b0f660f9d37c",
+    "entry_hash": "6802c35329076c1675907e664536afdba3aa543870062ad055df5bbbe7008b99"
+  },
+  {
+    "index": 274,
+    "timestamp": 1788794313.089969,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "6802c35329076c1675907e664536afdba3aa543870062ad055df5bbbe7008b99",
+    "entry_hash": "0c0077e446d9b6a6416f7828d7c45a48ce68259fc9fee3923732f25aa95b4835"
+  },
+  {
+    "index": 275,
+    "timestamp": 1788794313.0899851,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.10"
+    },
+    "prev_hash": "0c0077e446d9b6a6416f7828d7c45a48ce68259fc9fee3923732f25aa95b4835",
+    "entry_hash": "a359780fb4a9a6940f960dd2159dd2166906e3931f5e770118a9291cb28c1e6a"
+  },
+  {
+    "index": 276,
+    "timestamp": 1788794313.0900018,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.11"
+    },
+    "prev_hash": "a359780fb4a9a6940f960dd2159dd2166906e3931f5e770118a9291cb28c1e6a",
+    "entry_hash": "9333ddec1b84252d449eb02c6476939ee10282763c49616e5219d7d1dc38a1dd"
+  },
+  {
+    "index": 277,
+    "timestamp": 1788794313.090018,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.12"
+    },
+    "prev_hash": "9333ddec1b84252d449eb02c6476939ee10282763c49616e5219d7d1dc38a1dd",
+    "entry_hash": "8605c8d626270e6ace13caf6e5e098722cb7c25cd68f8ddfb348ac0d310f6dab"
+  },
+  {
+    "index": 278,
+    "timestamp": 1788794313.0900328,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.13"
+    },
+    "prev_hash": "8605c8d626270e6ace13caf6e5e098722cb7c25cd68f8ddfb348ac0d310f6dab",
+    "entry_hash": "92fd277dc49b84485c75561ca977c04ab791e0b4b1f3655e47c4435237aa9f3c"
+  },
+  {
+    "index": 279,
+    "timestamp": 1788794313.090046,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "92fd277dc49b84485c75561ca977c04ab791e0b4b1f3655e47c4435237aa9f3c",
+    "entry_hash": "729751c3c1261b7c82892af42a5e0af2961414cc8b125b3a9e19653eadeb6b58"
+  },
+  {
+    "index": 280,
+    "timestamp": 1788794313.09006,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.15"
+    },
+    "prev_hash": "729751c3c1261b7c82892af42a5e0af2961414cc8b125b3a9e19653eadeb6b58",
+    "entry_hash": "15a52c6a0db67ad91f0635a790bf0d1256c5e362897e24fb02802a8c60d1b33e"
+  },
+  {
+    "index": 281,
+    "timestamp": 1788794313.090073,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.16"
+    },
+    "prev_hash": "15a52c6a0db67ad91f0635a790bf0d1256c5e362897e24fb02802a8c60d1b33e",
+    "entry_hash": "bc4f97637b1001b2fdc0705141c68e2a27985f0446c4b5085cee7b23bf289215"
+  },
+  {
+    "index": 282,
+    "timestamp": 1788794313.09009,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.17"
+    },
+    "prev_hash": "bc4f97637b1001b2fdc0705141c68e2a27985f0446c4b5085cee7b23bf289215",
+    "entry_hash": "b1dc51fd2a27e2aefbf681f4852c74be6a52c007e332bce6d87d78f9781347a1"
+  },
+  {
+    "index": 283,
+    "timestamp": 1788794313.090119,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.18"
+    },
+    "prev_hash": "b1dc51fd2a27e2aefbf681f4852c74be6a52c007e332bce6d87d78f9781347a1",
+    "entry_hash": "18c25f47fabf47ec33277cc0edea68f9ea3b4389280bd835b5d7ed3ba11ff46f"
+  },
+  {
+    "index": 284,
+    "timestamp": 1788794313.090133,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.19"
+    },
+    "prev_hash": "18c25f47fabf47ec33277cc0edea68f9ea3b4389280bd835b5d7ed3ba11ff46f",
+    "entry_hash": "b21aa327e25a09075f23fb4b62e5f7a00e5a66804430bc4bc9f078ebcec5727a"
+  },
+  {
+    "index": 285,
+    "timestamp": 1788794313.0901499,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.20"
+    },
+    "prev_hash": "b21aa327e25a09075f23fb4b62e5f7a00e5a66804430bc4bc9f078ebcec5727a",
+    "entry_hash": "b36d2f61df460c2bc6e45ac55b5c2f9baed030836310b755d864ea7c23e47a1f"
+  },
+  {
+    "index": 286,
+    "timestamp": 1788794313.090164,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.21"
+    },
+    "prev_hash": "b36d2f61df460c2bc6e45ac55b5c2f9baed030836310b755d864ea7c23e47a1f",
+    "entry_hash": "4e631f473bd73588085a513d777c01620903a81c569cbfdc202e0f9ae3c22f03"
+  },
+  {
+    "index": 287,
+    "timestamp": 1788794313.090177,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.22"
+    },
+    "prev_hash": "4e631f473bd73588085a513d777c01620903a81c569cbfdc202e0f9ae3c22f03",
+    "entry_hash": "1f60bd5498399c0084406ee76a1d1ea43617f018a2249f4cb18509f7f18d63df"
+  },
+  {
+    "index": 288,
+    "timestamp": 1788794313.0901928,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.23"
+    },
+    "prev_hash": "1f60bd5498399c0084406ee76a1d1ea43617f018a2249f4cb18509f7f18d63df",
+    "entry_hash": "eade1449d23cdd1bcb715013f5a8eb389000576dd1f0e82c38b5087c5ebe4cd5"
+  },
+  {
+    "index": 289,
+    "timestamp": 1788794313.0902069,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.24"
+    },
+    "prev_hash": "eade1449d23cdd1bcb715013f5a8eb389000576dd1f0e82c38b5087c5ebe4cd5",
+    "entry_hash": "7e9a8db28b756f7567fa0309d953bbe4b5a4614a285b48afc861d062862f0c11"
+  },
+  {
+    "index": 290,
+    "timestamp": 1788794313.090224,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.25"
+    },
+    "prev_hash": "7e9a8db28b756f7567fa0309d953bbe4b5a4614a285b48afc861d062862f0c11",
+    "entry_hash": "584003487165ecdb55838060ae17a46025bbe15f92b5ac7581302e92ada66581"
+  },
+  {
+    "index": 291,
+    "timestamp": 1788794313.090255,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "584003487165ecdb55838060ae17a46025bbe15f92b5ac7581302e92ada66581",
+    "entry_hash": "b6ad6a6c7beeee5336e5cd817c10bb43b9880f3e308b41495cbbccc9f233ea15"
+  },
+  {
+    "index": 292,
+    "timestamp": 1788794313.0902789,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "b6ad6a6c7beeee5336e5cd817c10bb43b9880f3e308b41495cbbccc9f233ea15",
+    "entry_hash": "dd2645261617df477a953bf0a7dc29943f7b9ce8945870bea7a953db2837c4f1"
+  },
+  {
+    "index": 293,
+    "timestamp": 1788794313.090303,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "dd2645261617df477a953bf0a7dc29943f7b9ce8945870bea7a953db2837c4f1",
+    "entry_hash": "3faa2e065937a178f4ffaabcaad04c23cb8baedf64385fda9586b3c23a91cc09"
+  },
+  {
+    "index": 294,
+    "timestamp": 1788794313.090326,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "3faa2e065937a178f4ffaabcaad04c23cb8baedf64385fda9586b3c23a91cc09",
+    "entry_hash": "18b693231bce80dbcba7469784f30b7a59a0c756a7ed24fb6e6123b2825f4ca2"
+  },
+  {
+    "index": 295,
+    "timestamp": 1788794313.090349,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "18b693231bce80dbcba7469784f30b7a59a0c756a7ed24fb6e6123b2825f4ca2",
+    "entry_hash": "def65e97782172db1c7ccc2b4015ef1bcda6606cbc9fa33241e86ae9d8b5d89b"
+  },
+  {
+    "index": 296,
+    "timestamp": 1788794313.0903711,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "def65e97782172db1c7ccc2b4015ef1bcda6606cbc9fa33241e86ae9d8b5d89b",
+    "entry_hash": "52a108ea2e949ce1a83f9ceab46b4a5afe9b9d3341dba9e3d5359b3f9c3855f0"
+  },
+  {
+    "index": 297,
+    "timestamp": 1788794313.090394,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "52a108ea2e949ce1a83f9ceab46b4a5afe9b9d3341dba9e3d5359b3f9c3855f0",
+    "entry_hash": "c2d0286c6e98ba0151602baa5a4b3be52b97b7e9fa6c1a6a580e9e423bde53a5"
+  },
+  {
+    "index": 298,
+    "timestamp": 1788794313.0904162,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "c2d0286c6e98ba0151602baa5a4b3be52b97b7e9fa6c1a6a580e9e423bde53a5",
+    "entry_hash": "1fd080e56a44118313115d2e2646b7ad7f1b00c684d555fb57a5fc906a16cd6b"
+  },
+  {
+    "index": 299,
+    "timestamp": 1788794313.0904388,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "1fd080e56a44118313115d2e2646b7ad7f1b00c684d555fb57a5fc906a16cd6b",
+    "entry_hash": "f28316a7725a537aff68d9b9a027f65097b5a9ac6ee1e864cbf49e8d4dd2639e"
+  },
+  {
+    "index": 300,
+    "timestamp": 1788794313.090454,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.10"
+    },
+    "prev_hash": "f28316a7725a537aff68d9b9a027f65097b5a9ac6ee1e864cbf49e8d4dd2639e",
+    "entry_hash": "74acaa74d661ff19a43675737ecfdada0ae3062a9332364a3e77032bad14b0bd"
+  },
+  {
+    "index": 301,
+    "timestamp": 1788794313.0904691,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.11"
+    },
+    "prev_hash": "74acaa74d661ff19a43675737ecfdada0ae3062a9332364a3e77032bad14b0bd",
+    "entry_hash": "ba38c45e6861b2c19ea529b5222011e9d632b4375f4d987d661add22344259ab"
+  },
+  {
+    "index": 302,
+    "timestamp": 1788794313.090485,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.12"
+    },
+    "prev_hash": "ba38c45e6861b2c19ea529b5222011e9d632b4375f4d987d661add22344259ab",
+    "entry_hash": "dc8f3caca68bce3919197c8623c34486e87683fa730ae1698251471f124a73e0"
+  },
+  {
+    "index": 303,
+    "timestamp": 1788794313.0904992,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.13"
+    },
+    "prev_hash": "dc8f3caca68bce3919197c8623c34486e87683fa730ae1698251471f124a73e0",
+    "entry_hash": "c4a0cc612830c46ab3383066184a3a80d0e4215f0faae734bbe6c40d1e05b9b8"
+  },
+  {
+    "index": 304,
+    "timestamp": 1788794313.090515,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "c4a0cc612830c46ab3383066184a3a80d0e4215f0faae734bbe6c40d1e05b9b8",
+    "entry_hash": "5af37fa248fe79e0db77a83de4e40a17f2509d4d794936b1d4f2c5eceb31fc35"
+  },
+  {
+    "index": 305,
+    "timestamp": 1788794313.090529,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.15"
+    },
+    "prev_hash": "5af37fa248fe79e0db77a83de4e40a17f2509d4d794936b1d4f2c5eceb31fc35",
+    "entry_hash": "0057ca68061ee2e96332a04f1a7d473a4b480ca0ee35534073207b4c6a07b873"
+  },
+  {
+    "index": 306,
+    "timestamp": 1788794313.090542,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.16"
+    },
+    "prev_hash": "0057ca68061ee2e96332a04f1a7d473a4b480ca0ee35534073207b4c6a07b873",
+    "entry_hash": "fc65d2b79b5c029e098e84e24c9d2bc3b4d7aaf7d42ea6b2691a01cf22605dc7"
+  },
+  {
+    "index": 307,
+    "timestamp": 1788794313.0905569,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.17"
+    },
+    "prev_hash": "fc65d2b79b5c029e098e84e24c9d2bc3b4d7aaf7d42ea6b2691a01cf22605dc7",
+    "entry_hash": "829ff1b01fc008438d2edd954d055fc642b0b18897224ae045b6a74f3578ccb2"
+  },
+  {
+    "index": 308,
+    "timestamp": 1788794313.090571,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.18"
+    },
+    "prev_hash": "829ff1b01fc008438d2edd954d055fc642b0b18897224ae045b6a74f3578ccb2",
+    "entry_hash": "4bd7c764c6fec75dcb2581ae74e02cb6c2e18f3893032774b45246ce15e9338a"
+  },
+  {
+    "index": 309,
+    "timestamp": 1788794313.090584,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.19"
+    },
+    "prev_hash": "4bd7c764c6fec75dcb2581ae74e02cb6c2e18f3893032774b45246ce15e9338a",
+    "entry_hash": "7e4f88d84d99646982bba695f2afc74e8ae825379bf804167241de24a94b86eb"
+  },
+  {
+    "index": 310,
+    "timestamp": 1788794313.0905979,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.20"
+    },
+    "prev_hash": "7e4f88d84d99646982bba695f2afc74e8ae825379bf804167241de24a94b86eb",
+    "entry_hash": "de60771bcd0065f2965de36e22d2850f988165a7e5e0e5e5cd0f74b28587fded"
+  },
+  {
+    "index": 311,
+    "timestamp": 1788794313.090611,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.21"
+    },
+    "prev_hash": "de60771bcd0065f2965de36e22d2850f988165a7e5e0e5e5cd0f74b28587fded",
+    "entry_hash": "eab36995a71a08bbc9bb255e0760c0f27e48ae716bb88c1d86b4ab61ff27d8ba"
+  },
+  {
+    "index": 312,
+    "timestamp": 1788794313.090627,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.22"
+    },
+    "prev_hash": "eab36995a71a08bbc9bb255e0760c0f27e48ae716bb88c1d86b4ab61ff27d8ba",
+    "entry_hash": "8499a7ab6f99229287ffcf9a2ef99d75d75efc42c51968b82e22e3dcef60d34d"
+  },
+  {
+    "index": 313,
+    "timestamp": 1788794313.0906398,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.23"
+    },
+    "prev_hash": "8499a7ab6f99229287ffcf9a2ef99d75d75efc42c51968b82e22e3dcef60d34d",
+    "entry_hash": "1bfc9a0361705210cf00b130f661f313bd6b295b5b80dec9ca4f0e47076fa43c"
+  },
+  {
+    "index": 314,
+    "timestamp": 1788794313.090653,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.24"
+    },
+    "prev_hash": "1bfc9a0361705210cf00b130f661f313bd6b295b5b80dec9ca4f0e47076fa43c",
+    "entry_hash": "08c1553734a3160304cc811ae9ceef865f4b4779def62195de7374c52f3d326d"
+  },
+  {
+    "index": 315,
+    "timestamp": 1788794313.0906692,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.25"
+    },
+    "prev_hash": "08c1553734a3160304cc811ae9ceef865f4b4779def62195de7374c52f3d326d",
+    "entry_hash": "d71c01abd579543ac039111f79039e9a156c96b44e399211ecc1a188f31bf470"
+  },
+  {
+    "index": 316,
+    "timestamp": 1788794313.090699,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "d71c01abd579543ac039111f79039e9a156c96b44e399211ecc1a188f31bf470",
+    "entry_hash": "2cecb0d28292ac4feaac7c7ddf48773acc7124514f5ec37bd8e0b2fa2ab53e74"
+  },
+  {
+    "index": 317,
+    "timestamp": 1788794313.090722,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "2cecb0d28292ac4feaac7c7ddf48773acc7124514f5ec37bd8e0b2fa2ab53e74",
+    "entry_hash": "12184aa2365f4baf99ea2a81f41baa6b967e088eb6c7397d1cd4e71463e430b3"
+  },
+  {
+    "index": 318,
+    "timestamp": 1788794313.090745,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "12184aa2365f4baf99ea2a81f41baa6b967e088eb6c7397d1cd4e71463e430b3",
+    "entry_hash": "cbbdc7aa8aee2222f41f9615b679594e4f73dc6350c16dd504faa7884e939f7f"
+  },
+  {
+    "index": 319,
+    "timestamp": 1788794313.0907679,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "cbbdc7aa8aee2222f41f9615b679594e4f73dc6350c16dd504faa7884e939f7f",
+    "entry_hash": "d4356e825f49cd8e92b81abc4a0668e6d8d54106c8abdd8a0e96fd5acdef6948"
+  },
+  {
+    "index": 320,
+    "timestamp": 1788794313.0907898,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "d4356e825f49cd8e92b81abc4a0668e6d8d54106c8abdd8a0e96fd5acdef6948",
+    "entry_hash": "aa069e3409aa10e369fb360cbf04aeb0c309cb6156f13790b3b3937db055ae0f"
+  },
+  {
+    "index": 321,
+    "timestamp": 1788794313.090813,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "aa069e3409aa10e369fb360cbf04aeb0c309cb6156f13790b3b3937db055ae0f",
+    "entry_hash": "372a4c41bde285c0f98ec553827ccece3a5755c10c71f1d13c279248452873c5"
+  },
+  {
+    "index": 322,
+    "timestamp": 1788794313.0908349,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "372a4c41bde285c0f98ec553827ccece3a5755c10c71f1d13c279248452873c5",
+    "entry_hash": "12c4be24bf06eb466dae4e62fb3e4a11fddb116439f820f4a14afb40b73a28e1"
+  },
+  {
+    "index": 323,
+    "timestamp": 1788794313.090858,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "12c4be24bf06eb466dae4e62fb3e4a11fddb116439f820f4a14afb40b73a28e1",
+    "entry_hash": "bb82944989354c36e5419502855475c06ca52ca2f3ec208c7e6b33c84ea79b53"
+  },
+  {
+    "index": 324,
+    "timestamp": 1788794313.090883,
+    "event_type": "tool",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "allow",
+    "reason": "policy_compliant",
+    "details": {
+      "findings": []
+    },
+    "prev_hash": "bb82944989354c36e5419502855475c06ca52ca2f3ec208c7e6b33c84ea79b53",
+    "entry_hash": "a1e74d2dccdd4904541dcca37b2d788a6613f89acd5ce10012cf678837418163"
+  },
+  {
+    "index": 325,
+    "timestamp": 1788794313.090898,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.10"
+    },
+    "prev_hash": "a1e74d2dccdd4904541dcca37b2d788a6613f89acd5ce10012cf678837418163",
+    "entry_hash": "9bc6a71095720e5439c094b3c67957582fbe87a856bf1542eb090f952ef3c758"
+  },
+  {
+    "index": 326,
+    "timestamp": 1788794313.090913,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.11"
+    },
+    "prev_hash": "9bc6a71095720e5439c094b3c67957582fbe87a856bf1542eb090f952ef3c758",
+    "entry_hash": "b1760bbd27cb379563bd132483706c3c6090b707b822d460f7653394ee7c70c1"
+  },
+  {
+    "index": 327,
+    "timestamp": 1788794313.09093,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.12"
+    },
+    "prev_hash": "b1760bbd27cb379563bd132483706c3c6090b707b822d460f7653394ee7c70c1",
+    "entry_hash": "294cda56042db683e641c85497f4abdb0916178bf77311ef5acf3d9853e8daf0"
+  },
+  {
+    "index": 328,
+    "timestamp": 1788794313.0909472,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.13"
+    },
+    "prev_hash": "294cda56042db683e641c85497f4abdb0916178bf77311ef5acf3d9853e8daf0",
+    "entry_hash": "eb973e096d8408f89cc57057fee008e21bd6340effc4d14c823f1d9cb7b42af1"
+  },
+  {
+    "index": 329,
+    "timestamp": 1788794313.0909598,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.14"
+    },
+    "prev_hash": "eb973e096d8408f89cc57057fee008e21bd6340effc4d14c823f1d9cb7b42af1",
+    "entry_hash": "a8fa30d1bbd0ecbd8cc3ed16e9f29f8d96e59a3fbbae9263e1d065b6005ef7cc"
+  },
+  {
+    "index": 330,
+    "timestamp": 1788794313.0909739,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.15"
+    },
+    "prev_hash": "a8fa30d1bbd0ecbd8cc3ed16e9f29f8d96e59a3fbbae9263e1d065b6005ef7cc",
+    "entry_hash": "62e914f458f1ade36895f23b1f53faff828a75362b7514282a58af5768c5ec23"
+  },
+  {
+    "index": 331,
+    "timestamp": 1788794313.090987,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.16"
+    },
+    "prev_hash": "62e914f458f1ade36895f23b1f53faff828a75362b7514282a58af5768c5ec23",
+    "entry_hash": "5a6e35827edd1bd9c194be05f0a6c4c5a997002fcb851aa77efe7c8e7a96a098"
+  },
+  {
+    "index": 332,
+    "timestamp": 1788794313.091,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.17"
+    },
+    "prev_hash": "5a6e35827edd1bd9c194be05f0a6c4c5a997002fcb851aa77efe7c8e7a96a098",
+    "entry_hash": "2da83ca17f506c67bf6c89882262ad80d7a782d2727d70293aca6b8fbaef1dd9"
+  },
+  {
+    "index": 333,
+    "timestamp": 1788794313.091014,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.18"
+    },
+    "prev_hash": "2da83ca17f506c67bf6c89882262ad80d7a782d2727d70293aca6b8fbaef1dd9",
+    "entry_hash": "26016e07f49b91517725194773fc586033b30dca06d339c91e216d5002afe57a"
+  },
+  {
+    "index": 334,
+    "timestamp": 1788794313.091029,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.19"
+    },
+    "prev_hash": "26016e07f49b91517725194773fc586033b30dca06d339c91e216d5002afe57a",
+    "entry_hash": "e9482639bd64f9fc5c6bdc2dab4ebe7ca9abdf04ed5228dd94c2b69ef8d84ab6"
+  },
+  {
+    "index": 335,
+    "timestamp": 1788794313.091052,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.20"
+    },
+    "prev_hash": "e9482639bd64f9fc5c6bdc2dab4ebe7ca9abdf04ed5228dd94c2b69ef8d84ab6",
+    "entry_hash": "37617595786713f2b30f7c6b1e27024d859de272f57b508cfe17ae5733f984c0"
+  },
+  {
+    "index": 336,
+    "timestamp": 1788794313.091071,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.21"
+    },
+    "prev_hash": "37617595786713f2b30f7c6b1e27024d859de272f57b508cfe17ae5733f984c0",
+    "entry_hash": "d4dc89e62a5807719e6444550ad1270015a3e5b55dfbe29cc49c6e1159523f82"
+  },
+  {
+    "index": 337,
+    "timestamp": 1788794313.091085,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.22"
+    },
+    "prev_hash": "d4dc89e62a5807719e6444550ad1270015a3e5b55dfbe29cc49c6e1159523f82",
+    "entry_hash": "8ec438e25e159285c56d75dbc1b0db5457893f668b00f6d0cf688a39427ef291"
+  },
+  {
+    "index": 338,
+    "timestamp": 1788794313.0910988,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.23"
+    },
+    "prev_hash": "8ec438e25e159285c56d75dbc1b0db5457893f668b00f6d0cf688a39427ef291",
+    "entry_hash": "e25debf025fcfa4a020024929f32603c840df17639c971da9cc852006b043492"
+  },
+  {
+    "index": 339,
+    "timestamp": 1788794313.091112,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.24"
+    },
+    "prev_hash": "e25debf025fcfa4a020024929f32603c840df17639c971da9cc852006b043492",
+    "entry_hash": "bc3676d7de13a568971766fc740c085e0cd179898d884a1a9099e6f97fc46188"
+  },
+  {
+    "index": 340,
+    "timestamp": 1788794313.091128,
+    "event_type": "policy",
+    "tool_name": "lookup_ip_reputation",
+    "decision": "block",
+    "reason": "rate limit exceeded for role 'tier1_analyst'",
+    "details": {
+      "ip": "198.51.100.25"
+    },
+    "prev_hash": "bc3676d7de13a568971766fc740c085e0cd179898d884a1a9099e6f97fc46188",
+    "entry_hash": "5d871e4d62a3592699b050878d5c7048fcafb835b5ca218c70f95a812a056090"
+  },
+  {
+    "index": 341,
+    "timestamp": 1788794313.0911832,
+    "event_type": "inbound_filter",
+    "tool_name": "retrieved_context",
+    "decision": "block",
+    "reason": "pattern matched: 'system prompt'",
+    "details": {
+      "score": 1.0
+    },
+    "prev_hash": "5d871e4d62a3592699b050878d5c7048fcafb835b5ca218c70f95a812a056090",
+    "entry_hash": "c198c705049960642f893ef0e48f61bea9137db14c794bf109ffd5493bd2522b"
+  },
+  {
+    "index": 342,
+    "timestamp": 1788794313.091339,
+    "event_type": "inbound_filter",
+    "tool_name": "retrieved_context",
+    "decision": "block",
+    "reason": "pattern matched: 'system prompt'",
+    "details": {
+      "score": 1.0
+    },
+    "prev_hash": "c198c705049960642f893ef0e48f61bea9137db14c794bf109ffd5493bd2522b",
+    "entry_hash": "0a663b5d2bca600890da75430a8c973fbcede82e53fad07b29094abab8f7d2f7"
+  },
+  {
+    "index": 343,
+    "timestamp": 1788794313.091427,
+    "event_type": "inbound_filter",
+    "tool_name": "retrieved_context",
+    "decision": "block",
+    "reason": "pattern matched: 'system prompt'",
+    "details": {
+      "score": 1.0
+    },
+    "prev_hash": "0a663b5d2bca600890da75430a8c973fbcede82e53fad07b29094abab8f7d2f7",
+    "entry_hash": "3c281afb52a038c7cbc4c3d8930cc22fe7e79f59aa44f77b164346ab7316e778"
+  },
+  {
+    "index": 344,
+    "timestamp": 1788794313.0914738,
+    "event_type": "inbound_filter",
+    "tool_name": "retrieved_context",
+    "decision": "block",
+    "reason": "pattern matched: 'system prompt'",
+    "details": {
+      "score": 1.0
+    },
+    "prev_hash": "3c281afb52a038c7cbc4c3d8930cc22fe7e79f59aa44f77b164346ab7316e778",
+    "entry_hash": "a3efcb81a40dc51885dd9e63cdb6c799fcb3a8f359c851f5ab586f43528a01eb"
+  },
+  {
+    "index": 345,
+    "timestamp": 1788794313.091542,
+    "event_type": "inbound_filter",
+    "tool_name": "retrieved_context",
+    "decision": "block",
+    "reason": "pattern matched: 'system prompt'",
+    "details": {
+      "score": 1.0
+    },
+    "prev_hash": "a3efcb81a40dc51885dd9e63cdb6c799fcb3a8f359c851f5ab586f43528a01eb",
+    "entry_hash": "78d7dd23e28e9732a8f8d580a56046904a4b46babae875980fff3ca8b2689146"
+  },
+  {
+    "index": 346,
+    "timestamp": 1788794313.091601,
+    "event_type": "inbound_filter",
+    "tool_name": "retrieved_context",
+    "decision": "block",
+    "reason": "pattern matched: 'system prompt'",
+    "details": {
+      "score": 1.0
+    },
+    "prev_hash": "78d7dd23e28e9732a8f8d580a56046904a4b46babae875980fff3ca8b2689146",
+    "entry_hash": "1f383a4b4cc38c77f092d876645d17a303cfa295145b63b256366f68f12015a6"
+  },
+  {
+    "index": 347,
+    "timestamp": 1788794313.091635,
+    "event_type": "inbound_filter",
+    "tool_name": "retrieved_context",
+    "decision": "block",
+    "reason": "pattern matched: 'system prompt'",
+    "details": {
+      "score": 1.0
+    },
+    "prev_hash": "1f383a4b4cc38c77f092d876645d17a303cfa295145b63b256366f68f12015a6",
+    "entry_hash": "648b29cd19daafa6a61ae6026000c7852e0ef9848a6a4b76c94f2b2d06df7fff"
+  },
+  {
+    "index": 348,
+    "timestamp": 1788794313.0916638,
+    "event_type": "inbound_filter",
+    "tool_name": "retrieved_context",
+    "decision": "block",
+    "reason": "pattern matched: 'system prompt'",
+    "details": {
+      "score": 1.0
+    },
+    "prev_hash": "648b29cd19daafa6a61ae6026000c7852e0ef9848a6a4b76c94f2b2d06df7fff",
+    "entry_hash": "99364297490f22b3b8341db066a89389ee677b117aa7892fd6585462c43e7a18"
+  },
+  {
+    "index": 349,
+    "timestamp": 1788794313.091691,
+    "event_type": "inbound_filter",
+    "tool_name": "retrieved_context",
+    "decision": "block",
+    "reason": "pattern matched: 'system prompt'",
+    "details": {
+      "score": 1.0
+    },
+    "prev_hash": "99364297490f22b3b8341db066a89389ee677b117aa7892fd6585462c43e7a18",
+    "entry_hash": "608d6c9ec1b1bdc63bacb7a20468c4750fc2c59d2a9f585eeb98fbd587da7a65"
+  },
+  {
+    "index": 350,
+    "timestamp": 1788794313.091722,
+    "event_type": "inbound_filter",
+    "tool_name": "retrieved_context",
+    "decision": "block",
+    "reason": "pattern matched: 'system prompt'",
+    "details": {
+      "score": 1.0
+    },
+    "prev_hash": "608d6c9ec1b1bdc63bacb7a20468c4750fc2c59d2a9f585eeb98fbd587da7a65",
+    "entry_hash": "550cb8d380decf0df5f9b48075d9b2cf9d23dd87be63bf29b66288f31d399471"
+  }
+]

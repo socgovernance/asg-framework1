@@ -1,0 +1,14 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.hypothesis/
+
+# Environment
+venv/
+env/
+.env
+
+# OS artifacts
+.DS_Store
