@@ -12,3 +12,4 @@ env/
 
 # OS artifacts
 .DS_Store
+~*
